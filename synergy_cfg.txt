@@ -19,7 +19,7 @@ Synergy Configuration
          IWDT Window End Position:  0% (no window end position)
          IWDT Window Start Position: 100% (no window start position)
          IWDT Reset Interrupt Request Select: Reset is enabled
-         IWDT Stop Control: Stop counting when in Sleep, Snooze mode, Software Standby, or Deep Software Standby mode
+         IWDT Stop Control: Stop counting when in Sleep, Snooze mode, or Software Standby
          WDT Start Mode Select: Stop WDT after a reset (register-start mode)
          WDT Timeout Period: 16384 cycles
          WDT Clock Frequency Division Ratio: 128
@@ -290,9 +290,8 @@ Synergy Configuration
       
   Module "CGC Driver on r_cgc"
     Parameter Checking: Default (BSP)
-    Main Oscillator Wait Time: 8163 cycles
+    Main Oscillator Wait Time: 31139 us (8163 cycles)
     Main Oscillator Clock Source: Crystal or Resonator
-    Oscillator Stop Detect: Enabled
     Subclock Drive: Standard (12.5pf)
     Configure Subclock Drive On Reset: Enabled
     Low Voltage Mode: Disable
@@ -369,6 +368,7 @@ Synergy Configuration
     Thread Performance Info: Disabled (default)
     Timer Performance Info: Disabled (default)
     Hardware Thread Stack Monitoring: Enabled (default)
+    Systick Interrupt Priority: Priority 0 (highest)
     IAR Library Support: Disabled (default)
     EPK Support: Disabled (default)
     TX_THREAD_EXTENSION_0: 
@@ -466,6 +466,7 @@ Synergy Configuration
         Transmit Interrupt Priority: Priority 3
         Transmit End Interrupt Priority: Priority 3
         Error Interrupt Priority: Priority 3
+        Baudrate Percent Error: 2.0
         
   Thread "Rover Thread"
     Symbol: rover_thread
@@ -502,6 +503,7 @@ Synergy Configuration
       Name: g_speed_pwm
       Channel: 5
       Mode: PWM
+      Duty Cycle Range (only applicable in PWM mode): Shortest: 2 PCLK, Longest: (Period - 1) PCLK
       Period Value: 10
       Period Unit: Milliseconds
       Duty Cycle Value: 0
@@ -531,6 +533,7 @@ Synergy Configuration
       Name: g_datalogger_timer
       Channel: 10
       Mode: Periodic
+      Duty Cycle Range (only applicable in PWM mode): Shortest: 2 PCLK, Longest: (Period - 1) PCLK
       Period Value: 100
       Period Unit: Milliseconds
       Duty Cycle Value: 50
@@ -560,6 +563,7 @@ Synergy Configuration
       Name: g_front_ping_pwm
       Channel: 8
       Mode: PWM
+      Duty Cycle Range (only applicable in PWM mode): Shortest: 2 PCLK, Longest: (Period - 1) PCLK
       Period Value: 500
       Period Unit: Milliseconds
       Duty Cycle Value: 1500
@@ -576,6 +580,7 @@ Synergy Configuration
       Name: g_rear_ping_pwm
       Channel: 9
       Mode: PWM
+      Duty Cycle Range (only applicable in PWM mode): Shortest: 2 PCLK, Longest: (Period - 1) PCLK
       Period Value: 500
       Period Unit: Milliseconds
       Duty Cycle Value: 1500
@@ -631,6 +636,7 @@ Synergy Configuration
           Rate: Fast-mode
           Slave Address: 0
           Address Mode: 7-Bit
+          Timeout Mode: Short Mode
           Callback: NULL
           Receive Interrupt Priority: Priority 2
           Transmit Interrupt Priority: Priority 2
@@ -690,7 +696,7 @@ Synergy Configuration
       Instance "g_power_monitor_adc0 ADC Driver on r_adc"
         Name: g_power_monitor_adc0
         Unit: 0
-        Resolution (resolution varies by MCU): 12-Bit
+        Resolution: 12-Bit
         Alignment: Right
         Clear after read: On
         Mode: Single Scan
@@ -761,7 +767,7 @@ Synergy Configuration
             Channel 27: Disabled
             Temperature Sensor: Disabled
             Voltage Sensor: Disabled
-        Sample and Hold Mask: Select channels for which individual sample and hold circuit is to be enabled
+        Sample and Hold Mask (Available only on selected MCUs): Select channels for which individual sample and hold circuit is to be enabled
             Channel 0: Disabled
             Channel 1: Disabled
             Channel 2: Disabled
@@ -774,6 +780,7 @@ Synergy Configuration
         Name: g_power_monitor_timer0
         Channel: 0
         Mode: Periodic
+        Duty Cycle Range (only applicable in PWM mode): Shortest: 2 PCLK, Longest: (Period - 1) PCLK
         Period Value: 5
         Period Unit: Seconds
         Duty Cycle Value: 50
@@ -786,7 +793,7 @@ Synergy Configuration
         Callback: NULL
         Overflow Interrupt Priority: Priority 3
         
-      Instance "g_power_monitor_transfer0 Transfer Driver on r_dtc Software Activation 1"
+      Instance "g_power_monitor_transfer0 Transfer Driver on r_dtc ADC0 COMPARE MATCH"
         Name: g_power_monitor_transfer0
         Mode: Block
         Transfer Size: 2 Bytes
@@ -798,7 +805,7 @@ Synergy Configuration
         Source Pointer: NULL
         Number of Transfers: 1
         Number of Blocks (Valid only in Block Mode): 1
-        Activation Source (Must enable IRQ): Software Activation 1
+        Activation Source (Must enable IRQ): ADC0 COMPARE MATCH
         Auto Enable: False
         Callback (Only valid with Software start): NULL
         ELC Software Event Interrupt Priority: Disabled
@@ -814,8 +821,8 @@ Synergy Configuration
       
       Instance "g_power_monitor_adc1 ADC Driver on r_adc"
         Name: g_power_monitor_adc1
-        Unit: 1(S7G2,S5D9 and S5D5)
-        Resolution (resolution varies by MCU): 12-Bit
+        Unit: 1(S7G2,S5D9,S5D5 and S5D3 only)
+        Resolution: 12-Bit
         Alignment: Right
         Clear after read: On
         Mode: Single Scan
@@ -886,7 +893,7 @@ Synergy Configuration
             Channel 27: Disabled
             Temperature Sensor: Disabled
             Voltage Sensor: Disabled
-        Sample and Hold Mask: Select channels for which individual sample and hold circuit is to be enabled
+        Sample and Hold Mask (Available only on selected MCUs): Select channels for which individual sample and hold circuit is to be enabled
             Channel 0: Disabled
             Channel 1: Disabled
             Channel 2: Disabled
@@ -899,6 +906,7 @@ Synergy Configuration
         Name: g_power_monitor_timer1
         Channel: 1
         Mode: Periodic
+        Duty Cycle Range (only applicable in PWM mode): Shortest: 2 PCLK, Longest: (Period - 1) PCLK
         Period Value: 5
         Period Unit: Seconds
         Duty Cycle Value: 50
@@ -911,7 +919,7 @@ Synergy Configuration
         Callback: NULL
         Overflow Interrupt Priority: Priority 3
         
-      Instance "g_power_monitor_transfer1 Transfer Driver on r_dtc Software Activation 1"
+      Instance "g_power_monitor_transfer1 Transfer Driver on r_dtc ADC0 COMPARE MATCH"
         Name: g_power_monitor_transfer1
         Mode: Block
         Transfer Size: 2 Bytes
@@ -923,7 +931,7 @@ Synergy Configuration
         Source Pointer: NULL
         Number of Transfers: 1
         Number of Blocks (Valid only in Block Mode): 1
-        Activation Source (Must enable IRQ): Software Activation 1
+        Activation Source (Must enable IRQ): ADC0 COMPARE MATCH
         Auto Enable: False
         Callback (Only valid with Software start): NULL
         ELC Software Event Interrupt Priority: Disabled
@@ -945,6 +953,7 @@ Synergy Configuration
       Name: g_encoders_timer
       Channel: 13
       Mode: Periodic
+      Duty Cycle Range (only applicable in PWM mode): Shortest: 2 PCLK, Longest: (Period - 1) PCLK
       Period Value: 500
       Period Unit: Milliseconds
       Duty Cycle Value: 50

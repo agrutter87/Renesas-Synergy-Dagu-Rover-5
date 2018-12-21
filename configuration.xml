@@ -7,7 +7,7 @@
     <option key="#TargetARCHITECTURE#" value="cortex-m4"/>
     <option key="#RTOS#" value="Express Logic ThreadX"/>
     <option key="#pinconfiguration#" value="roverdemo.pincfg"/>
-    <option key="#SSPVersion#" value="1.4.0"/>
+    <option key="#SSPVersion#" value="1.5.3"/>
     <option key="#DefaultLinkerScript#" value="S7G2.ld"/>
     <option key="#ConfigurationFragments#" value="FutureDesignsInc##BSP##Board##SYG##RoverDemo|FutureDesignsInc##BSP##Board##SYG##MDK"/>
   </generalSettings>
@@ -63,6 +63,7 @@
   </synergyBspConfiguration>
   <synergyClockConfiguration>
     <node id="board.clock.xtal.freq" mul="24000000" option="_edit"/>
+    <node id="board.clock.usbmclk.freq" option="board.clock.usbmclk.freq"/>
     <node id="board.clock.pll.source" option="board.clock.pll.source.xtal"/>
     <node id="board.clock.hoco.freq" option="board.clock.hoco.freq.20m"/>
     <node id="board.clock.loco.freq" option="board.clock.loco.freq.32768"/>
@@ -94,93 +95,93 @@
     <node id="board.clock.fclk.display" option="board.clock.fclk.display.value"/>
   </synergyClockConfiguration>
   <synergyComponentSelection>
-    <component apiversion="" class="BSP" condition="" group="s7g2" subgroup="device" variant="R7FS7G27H2A01CBD" vendor="Renesas" version="1.4.0">
-      <description>Board support package for R7FS7G27H2A01CBD</description>
-      <originalPack>Renesas.Synergy_mcu_s7g2.1.4.0.pack</originalPack>
-    </component>
-    <component apiversion="" class="BSP" condition="" group="s7g2" subgroup="device" variant="" vendor="Renesas" version="1.4.0">
-      <description>Board support package for S7G2</description>
-      <originalPack>Renesas.Synergy_mcu_s7g2.1.4.0.pack</originalPack>
-    </component>
-    <component apiversion="" class="BSP" condition="" group="s7g2" subgroup="ssp" variant="" vendor="Renesas" version="1.4.0">
-      <description>Board support package for S7G2</description>
-      <originalPack>Renesas.Synergy_mcu_s7g2.1.4.0.pack</originalPack>
-    </component>
-    <component apiversion="" class="Common" condition="" group="all" subgroup="ssp_common" variant="" vendor="Renesas" version="1.4.0">
+    <component apiversion="" class="Common" condition="" group="all" subgroup="ssp_common" variant="" vendor="Renesas" version="1.5.3">
       <description>SSP Common Code</description>
-      <originalPack>Renesas.Synergy.1.4.0.pack</originalPack>
+      <originalPack>Renesas.Synergy.1.5.3.pack</originalPack>
     </component>
-    <component apiversion="" class="Framework Services" condition="" group="all" subgroup="sf_adc_periodic" variant="" vendor="Renesas" version="1.4.0">
+    <component apiversion="" class="Framework Services" condition="" group="all" subgroup="sf_adc_periodic" variant="" vendor="Renesas" version="1.5.3">
       <description>Framework ADC Periodic: Provides=[Framework ADC Periodic] , Requires=[ThreadX ,ADC ,Timer]</description>
-      <originalPack>Renesas.Synergy.1.4.0.pack</originalPack>
+      <originalPack>Renesas.Synergy.1.5.3.pack</originalPack>
     </component>
-    <component apiversion="" class="Framework Services" condition="" group="all" subgroup="sf_uart_comms" variant="" vendor="Renesas" version="1.4.0">
-      <description>Framework UART Communications: Provides=[Framework UART] , Requires=[ThreadX ,Communications]</description>
-      <originalPack>Renesas.Synergy.1.4.0.pack</originalPack>
-    </component>
-    <component apiversion="" class="HAL Drivers" condition="" group="all" subgroup="r_adc" variant="" vendor="Renesas" version="1.4.0">
-      <description>A/D Converter: Provides=[ADC]</description>
-      <originalPack>Renesas.Synergy.1.4.0.pack</originalPack>
-    </component>
-    <component apiversion="" class="HAL Drivers" condition="" group="all" subgroup="r_agt" variant="" vendor="Renesas" version="1.4.0">
-      <description>Asynchronous General Purpose Timer: Provides=[TIMER]</description>
-      <originalPack>Renesas.Synergy.1.4.0.pack</originalPack>
-    </component>
-    <component apiversion="" class="HAL Drivers" condition="" group="all" subgroup="r_cgc" variant="" vendor="Renesas" version="1.4.0">
-      <description>Clock Generation Circuit: Provides=[CGC]</description>
-      <originalPack>Renesas.Synergy.1.4.0.pack</originalPack>
-    </component>
-    <component apiversion="" class="HAL Drivers" condition="" group="all" subgroup="r_dtc" variant="" vendor="Renesas" version="1.4.0">
-      <description>Data Transfer Controller: Provides=[Transfer]</description>
-      <originalPack>Renesas.Synergy.1.4.0.pack</originalPack>
-    </component>
-    <component apiversion="" class="HAL Drivers" condition="" group="all" subgroup="r_elc" variant="" vendor="Renesas" version="1.4.0">
-      <description>Event Link Controller: Provides=[ELC]</description>
-      <originalPack>Renesas.Synergy.1.4.0.pack</originalPack>
-    </component>
-    <component apiversion="" class="HAL Drivers" condition="" group="all" subgroup="r_fmi" variant="" vendor="Renesas" version="1.4.0">
-      <description>Factory MCU Information Module: Provides=[FMI]</description>
-      <originalPack>Renesas.Synergy.1.4.0.pack</originalPack>
-    </component>
-    <component apiversion="" class="HAL Drivers" condition="" group="all" subgroup="r_gpt" variant="" vendor="Renesas" version="1.4.0">
-      <description>General Purpose Timer: Provides=[Timer ,GPT]</description>
-      <originalPack>Renesas.Synergy.1.4.0.pack</originalPack>
-    </component>
-    <component apiversion="" class="HAL Drivers" condition="" group="all" subgroup="r_icu" variant="" vendor="Renesas" version="1.4.0">
-      <description>External IRQ: Provides=[External IRQ]</description>
-      <originalPack>Renesas.Synergy.1.4.0.pack</originalPack>
-    </component>
-    <component apiversion="" class="HAL Drivers" condition="" group="all" subgroup="r_ioport" variant="" vendor="Renesas" version="1.4.0">
-      <description>I/O Port: Provides=[IO Port]</description>
-      <originalPack>Renesas.Synergy.1.4.0.pack</originalPack>
-    </component>
-    <component apiversion="" class="HAL Drivers" condition="" group="all" subgroup="r_sci_uart" variant="" vendor="Renesas" version="1.4.0">
-      <description>SCI UART: Provides=[UART] , Requires=[SCI Common]</description>
-      <originalPack>Renesas.Synergy.1.4.0.pack</originalPack>
-    </component>
-    <component apiversion="" class="Express Logic" condition="" group="all" subgroup="tx" variant="" vendor="Renesas" version="1.4.0">
-      <description>Express Logic ThreadX: Provides=[ThreadX]</description>
-      <originalPack>Renesas.Synergy.1.4.0.pack</originalPack>
-    </component>
-    <component apiversion="" class="Express Logic" condition="" group="all" subgroup="tx_src" variant="" vendor="Renesas" version="1.4.0">
-      <description>Express Logic ThreadX: Provides=[ThreadX]</description>
-      <originalPack>Renesas.Synergy.1.4.0.pack</originalPack>
-    </component>
-    <component apiversion="" class="Projects" condition="" group="all" subgroup="BlinkyThreadX" variant="" vendor="Renesas" version="1.4.0">
-      <description>Simple application that blinks an LED. ThreadX RTOS included</description>
-      <originalPack>Renesas.SynergyBlinkyThreadX.1.4.0.pack</originalPack>
-    </component>
-    <component apiversion="" class="Framework Services" condition="" group="all" subgroup="sf_i2c" variant="" vendor="Renesas" version="1.4.0">
+    <component apiversion="" class="Framework Services" condition="" group="all" subgroup="sf_i2c" variant="" vendor="Renesas" version="1.5.3">
       <description>Framework I2C: Provides=[Framework I2C] , Requires=[ThreadX ,I2C]</description>
-      <originalPack>Renesas.Synergy.1.4.0.pack</originalPack>
+      <originalPack>Renesas.Synergy.1.5.3.pack</originalPack>
     </component>
-    <component apiversion="" class="HAL Drivers" condition="" group="all" subgroup="r_riic" variant="" vendor="Renesas" version="1.4.0">
+    <component apiversion="" class="Framework Services" condition="" group="all" subgroup="sf_uart_comms" variant="" vendor="Renesas" version="1.5.3">
+      <description>Framework UART Communications: Provides=[Framework UART] , Requires=[ThreadX ,Communications]</description>
+      <originalPack>Renesas.Synergy.1.5.3.pack</originalPack>
+    </component>
+    <component apiversion="" class="HAL Drivers" condition="" group="all" subgroup="r_adc" variant="" vendor="Renesas" version="1.5.3">
+      <description>A/D Converter: Provides=[ADC]</description>
+      <originalPack>Renesas.Synergy.1.5.3.pack</originalPack>
+    </component>
+    <component apiversion="" class="HAL Drivers" condition="" group="all" subgroup="r_agt" variant="" vendor="Renesas" version="1.5.3">
+      <description>Asynchronous General Purpose Timer: Provides=[TIMER]</description>
+      <originalPack>Renesas.Synergy.1.5.3.pack</originalPack>
+    </component>
+    <component apiversion="" class="HAL Drivers" condition="" group="all" subgroup="r_cgc" variant="" vendor="Renesas" version="1.5.3">
+      <description>Clock Generation Circuit: Provides=[CGC]</description>
+      <originalPack>Renesas.Synergy.1.5.3.pack</originalPack>
+    </component>
+    <component apiversion="" class="HAL Drivers" condition="" group="all" subgroup="r_dtc" variant="" vendor="Renesas" version="1.5.3">
+      <description>Data Transfer Controller: Provides=[Transfer]</description>
+      <originalPack>Renesas.Synergy.1.5.3.pack</originalPack>
+    </component>
+    <component apiversion="" class="HAL Drivers" condition="" group="all" subgroup="r_elc" variant="" vendor="Renesas" version="1.5.3">
+      <description>Event Link Controller: Provides=[ELC]</description>
+      <originalPack>Renesas.Synergy.1.5.3.pack</originalPack>
+    </component>
+    <component apiversion="" class="HAL Drivers" condition="" group="all" subgroup="r_fmi" variant="" vendor="Renesas" version="1.5.3">
+      <description>Factory MCU Information Module: Provides=[FMI]</description>
+      <originalPack>Renesas.Synergy.1.5.3.pack</originalPack>
+    </component>
+    <component apiversion="" class="HAL Drivers" condition="" group="all" subgroup="r_gpt" variant="" vendor="Renesas" version="1.5.3">
+      <description>General Purpose Timer: Provides=[Timer ,GPT]</description>
+      <originalPack>Renesas.Synergy.1.5.3.pack</originalPack>
+    </component>
+    <component apiversion="" class="HAL Drivers" condition="" group="all" subgroup="r_icu" variant="" vendor="Renesas" version="1.5.3">
+      <description>External IRQ: Provides=[External IRQ]</description>
+      <originalPack>Renesas.Synergy.1.5.3.pack</originalPack>
+    </component>
+    <component apiversion="" class="HAL Drivers" condition="" group="all" subgroup="r_ioport" variant="" vendor="Renesas" version="1.5.3">
+      <description>I/O Port: Provides=[IO Port]</description>
+      <originalPack>Renesas.Synergy.1.5.3.pack</originalPack>
+    </component>
+    <component apiversion="" class="HAL Drivers" condition="" group="all" subgroup="r_riic" variant="" vendor="Renesas" version="1.5.3">
       <description>RIIC: Provides=[I2C Master]</description>
-      <originalPack>Renesas.Synergy.1.4.0.pack</originalPack>
+      <originalPack>Renesas.Synergy.1.5.3.pack</originalPack>
     </component>
-    <component apiversion="" class="BSP" condition="" group="Board" subgroup="SYG" variant="MDK" vendor="FutureDesignsInc" version="1.4.0">
+    <component apiversion="" class="HAL Drivers" condition="" group="all" subgroup="r_sci_uart" variant="" vendor="Renesas" version="1.5.3">
+      <description>SCI UART: Provides=[UART] , Requires=[SCI Common]</description>
+      <originalPack>Renesas.Synergy.1.5.3.pack</originalPack>
+    </component>
+    <component apiversion="" class="Express Logic" condition="" group="all" subgroup="tx" variant="" vendor="Renesas" version="1.5.3">
+      <description>Express Logic ThreadX: Provides=[ThreadX]</description>
+      <originalPack>Renesas.Synergy.1.5.3.pack</originalPack>
+    </component>
+    <component apiversion="" class="Express Logic" condition="" group="all" subgroup="tx_src" variant="" vendor="Renesas" version="1.5.3">
+      <description>Express Logic ThreadX: Provides=[ThreadX]</description>
+      <originalPack>Renesas.Synergy.1.5.3.pack</originalPack>
+    </component>
+    <component apiversion="" class="BSP" condition="" group="s7g2" subgroup="device" variant="R7FS7G27H2A01CBD" vendor="Renesas" version="1.5.3">
+      <description>Board support package for R7FS7G27H2A01CBD</description>
+      <originalPack>Renesas.Synergy_mcu_s7g2.1.5.3.pack</originalPack>
+    </component>
+    <component apiversion="" class="BSP" condition="" group="s7g2" subgroup="device" variant="" vendor="Renesas" version="1.5.3">
+      <description>Board support package for S7G2</description>
+      <originalPack>Renesas.Synergy_mcu_s7g2.1.5.3.pack</originalPack>
+    </component>
+    <component apiversion="" class="BSP" condition="" group="s7g2" subgroup="ssp" variant="" vendor="Renesas" version="1.5.3">
+      <description>Board support package for S7G2</description>
+      <originalPack>Renesas.Synergy_mcu_s7g2.1.5.3.pack</originalPack>
+    </component>
+    <component apiversion="" class="Projects" condition="" group="all" subgroup="BlinkyThreadX" variant="" vendor="Renesas" version="1.5.3">
+      <description>Simple application that blinks an LED. ThreadX RTOS included</description>
+      <originalPack>Renesas.SynergyBlinkyThreadX.1.5.3.pack</originalPack>
+    </component>
+    <component apiversion="" class="BSP" condition="" group="Board" subgroup="SYG" variant="MDK" vendor="FutureDesignsInc" version="1.5.3">
       <description/>
-      <originalPack>FutureDesignsInc.SYG_MDK.1.4.0.pack</originalPack>
+      <originalPack>FutureDesignsInc.SYG_MDK.1.5.3.pack</originalPack>
     </component>
   </synergyComponentSelection>
   <synergyIcuConfiguration/>
@@ -223,11 +224,13 @@
       <property id="module.driver.uart.txi_ipl" value="board.icu.common.irq.priority3"/>
       <property id="module.driver.uart.tei_ipl" value="board.icu.common.irq.priority3"/>
       <property id="module.driver.uart.eri_ipl" value="board.icu.common.irq.priority3"/>
+      <property id="module.driver.uart.baud_rate_error" value="2.0"/>
     </module>
     <module id="module.driver.timer_on_gpt.140050968">
       <property id="module.driver.timer.name" value="g_speed_pwm"/>
       <property id="module.driver.timer.channel" value="5"/>
       <property id="module.driver.timer.mode" value="module.driver.timer.mode.mode_pwm"/>
+      <property id="module.driver.timer.shortest_pwm_signal" value="module.driver.timer.mode.shortest_pwm_signal_disabled"/>
       <property id="module.driver.timer.period" value="10"/>
       <property id="module.driver.timer.unit" value="module.driver.timer.unit.unit_period_msec"/>
       <property id="module.driver.timer.duty_cycle" value="0"/>
@@ -244,6 +247,7 @@
       <property id="module.driver.timer.name" value="g_datalogger_timer"/>
       <property id="module.driver.timer.channel" value="10"/>
       <property id="module.driver.timer.mode" value="module.driver.timer.mode.mode_periodic"/>
+      <property id="module.driver.timer.shortest_pwm_signal" value="module.driver.timer.mode.shortest_pwm_signal_disabled"/>
       <property id="module.driver.timer.period" value="100"/>
       <property id="module.driver.timer.unit" value="module.driver.timer.unit.unit_period_msec"/>
       <property id="module.driver.timer.duty_cycle" value="50"/>
@@ -260,6 +264,7 @@
       <property id="module.driver.timer.name" value="g_front_ping_pwm"/>
       <property id="module.driver.timer.channel" value="8"/>
       <property id="module.driver.timer.mode" value="module.driver.timer.mode.mode_pwm"/>
+      <property id="module.driver.timer.shortest_pwm_signal" value="module.driver.timer.mode.shortest_pwm_signal_disabled"/>
       <property id="module.driver.timer.period" value="500"/>
       <property id="module.driver.timer.unit" value="module.driver.timer.unit.unit_period_msec"/>
       <property id="module.driver.timer.duty_cycle" value="1500"/>
@@ -276,6 +281,7 @@
       <property id="module.driver.timer.name" value="g_rear_ping_pwm"/>
       <property id="module.driver.timer.channel" value="9"/>
       <property id="module.driver.timer.mode" value="module.driver.timer.mode.mode_pwm"/>
+      <property id="module.driver.timer.shortest_pwm_signal" value="module.driver.timer.mode.shortest_pwm_signal_disabled"/>
       <property id="module.driver.timer.period" value="500"/>
       <property id="module.driver.timer.unit" value="module.driver.timer.unit.unit_period_msec"/>
       <property id="module.driver.timer.duty_cycle" value="1500"/>
@@ -410,6 +416,7 @@
       <property id="module.driver.timer.name" value="g_power_monitor_timer0"/>
       <property id="module.driver.timer.channel" value="0"/>
       <property id="module.driver.timer.mode" value="module.driver.timer.mode.mode_periodic"/>
+      <property id="module.driver.timer.shortest_pwm_signal" value="module.driver.timer.mode.shortest_pwm_signal_disabled"/>
       <property id="module.driver.timer.period" value="5"/>
       <property id="module.driver.timer.unit" value="module.driver.timer.unit.unit_period_sec"/>
       <property id="module.driver.timer.duty_cycle" value="50"/>
@@ -443,6 +450,7 @@
       <property id="module.driver.timer.name" value="g_encoders_timer"/>
       <property id="module.driver.timer.channel" value="13"/>
       <property id="module.driver.timer.mode" value="module.driver.timer.mode.mode_periodic"/>
+      <property id="module.driver.timer.shortest_pwm_signal" value="module.driver.timer.mode.shortest_pwm_signal_disabled"/>
       <property id="module.driver.timer.period" value="500"/>
       <property id="module.driver.timer.unit" value="module.driver.timer.unit.unit_period_msec"/>
       <property id="module.driver.timer.duty_cycle" value="50"/>
@@ -551,6 +559,7 @@
       <property id="module.driver.timer.name" value="g_power_monitor_timer1"/>
       <property id="module.driver.timer.channel" value="1"/>
       <property id="module.driver.timer.mode" value="module.driver.timer.mode.mode_periodic"/>
+      <property id="module.driver.timer.shortest_pwm_signal" value="module.driver.timer.mode.shortest_pwm_signal_disabled"/>
       <property id="module.driver.timer.period" value="5"/>
       <property id="module.driver.timer.unit" value="module.driver.timer.unit.unit_period_sec"/>
       <property id="module.driver.timer.duty_cycle" value="50"/>
@@ -597,6 +606,7 @@
       <property id="module.driver.i2c.rate" value="module.driver.i2c.rate.rate_fast"/>
       <property id="module.driver.i2c.slave" value="0x00"/>
       <property id="module.driver.i2c.addr_mode" value="module.driver.i2c.addr_mode.addr_mode_7bit"/>
+      <property id="module.driver.i2c.timeout_mode" value="module.driver.i2c.timeout_mode.short_mode"/>
       <property id="module.driver.i2c.p_callback" value="NULL"/>
       <property id="module.driver.i2c.rxi_ipl" value="board.icu.common.irq.priority2"/>
       <property id="module.driver.i2c.txi_ipl" value="board.icu.common.irq.priority2"/>
@@ -774,7 +784,6 @@
       <property id="config.driver.cgc.param_checking_enable" value="config.driver.cgc.param_checking_enable.bsp"/>
       <property id="config.driver.cgc.main_osc_wait" value="config.driver.cgc.main_osc_wait.wait_8163"/>
       <property id="config.driver.cgc.main_osc_clock_source" value="config.driver.cgc.main_osc_clock_source.crystal"/>
-      <property id="config.driver.cgc.osc_stop_det_used" value="config.driver.cgc.osc_stop_det_used.enabled"/>
       <property id="config.driver.cgc.subclock_drive" value="config.driver.cgc.subclock_drive.standard"/>
       <property id="config.driver.cgc.subclock_at_reset_enable" value="config.driver.cgc.subclock_at_reset_enable.enabled"/>
       <property id="config.driver.cgc.low_voltage_mode" value="config.driver.cgc.low_voltage_mode.disabled"/>
@@ -853,6 +862,7 @@
       <property id="config.el.tx_src.thread_performance_info" value="config.el.tx_src.thread_performance_info.disabled"/>
       <property id="config.el.tx_src.timer_performance_info" value="config.el.tx_src.timer_performance_info.disabled"/>
       <property id="config.el.tx_src.hw_stack_monitoring" value="config.el.tx_src.hw_stack_monitoring.enabled"/>
+      <property id="config.el.tx_src.SysTick_IRQn" value="board.icu.common.irq.priority0"/>
       <property id="config.el.tx_src.iar_library_support" value="config.el.tx_src.iar_library_support.disabled"/>
       <property id="config.el.tx_src.epk_support" value="config.el.tx_src.epk_support.disabled"/>
       <property id="config.el.tx_src.tx_thread_extension_0" value=""/>
