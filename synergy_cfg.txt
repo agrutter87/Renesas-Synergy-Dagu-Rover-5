@@ -1,5 +1,5 @@
 Synergy Configuration
-  Board "RoverDemo"
+  Board "SYG_MDK"
   R7FS7G27H2A01CBD
     part_number: R7FS7G27H2A01CBD
     rom_size_bytes: 4194304

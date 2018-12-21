@@ -3515,8 +3515,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x2e ./synergy/ssp/src/driver/r_agt/r_agt.o
  .debug_macro   0x00000000       0x16 ./synergy/ssp/src/driver/r_agt/r_agt.o
  .debug_macro   0x00000000       0x10 ./synergy/ssp/src/driver/r_agt/r_agt.o
- .debug_line    0x00000000      0xf77 ./synergy/ssp/src/driver/r_agt/r_agt.o
- .debug_str     0x00000000    0x12197 ./synergy/ssp/src/driver/r_agt/r_agt.o
+ .debug_line    0x00000000      0xf75 ./synergy/ssp/src/driver/r_agt/r_agt.o
+ .debug_str     0x00000000    0x12195 ./synergy/ssp/src/driver/r_agt/r_agt.o
  .comment       0x00000000       0x71 ./synergy/ssp/src/driver/r_agt/r_agt.o
  .debug_frame   0x00000000      0x6e0 ./synergy/ssp/src/driver/r_agt/r_agt.o
  .ARM.attributes
@@ -4780,8 +4780,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./synergy/ssp/src/bsp/mcu/all/bsp_sbrk.o
  .debug_macro   0x00000000      0x180 ./synergy/ssp/src/bsp/mcu/all/bsp_sbrk.o
  .debug_macro   0x00000000      0x23b ./synergy/ssp/src/bsp/mcu/all/bsp_sbrk.o
- .debug_line    0x00000000      0x87f ./synergy/ssp/src/bsp/mcu/all/bsp_sbrk.o
- .debug_str     0x00000000     0xe8f4 ./synergy/ssp/src/bsp/mcu/all/bsp_sbrk.o
+ .debug_line    0x00000000      0x87d ./synergy/ssp/src/bsp/mcu/all/bsp_sbrk.o
+ .debug_str     0x00000000     0xe8f2 ./synergy/ssp/src/bsp/mcu/all/bsp_sbrk.o
  .comment       0x00000000       0x71 ./synergy/ssp/src/bsp/mcu/all/bsp_sbrk.o
  .debug_frame   0x00000000       0x34 ./synergy/ssp/src/bsp/mcu/all/bsp_sbrk.o
  .ARM.attributes
@@ -4943,328 +4943,328 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/system_S7G2.o
  .debug_macro   0x00000000       0x10 ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/system_S7G2.o
  .debug_macro   0x00000000       0x10 ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/system_S7G2.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_init.o
- .text          0x00000000        0x0 ./synergy/board/roverdemo/bsp_init.o
- .data          0x00000000        0x0 ./synergy/board/roverdemo/bsp_init.o
- .bss           0x00000000        0x0 ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000      0x874 ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0x58 ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0x22 ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0x35 ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0x9c ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0x16 ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0x4a ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0xe3 ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0x22 ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000      0x1df ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0x28 ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0x22 ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0x6a ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0x2e ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0x10 ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0x28 ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0x3b ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0x34 ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0x26 ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000      0xe43 ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000      0x744 ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0x5e ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0x22 ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0x22 ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0x58 ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000      0x166 ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0x10 ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0x3a ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0x69 ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0x16 ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0x1c ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0x29 ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0x16 ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0x10 ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00000000       0x10 ./synergy/board/roverdemo/bsp_init.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_leds.o
- .text          0x00000000        0x0 ./synergy/board/roverdemo/bsp_leds.o
- .data          0x00000000        0x0 ./synergy/board/roverdemo/bsp_leds.o
- .bss           0x00000000        0x0 ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000      0x874 ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0x58 ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0x22 ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0x35 ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0x9c ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0x16 ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0x4a ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0xe3 ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0x22 ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000      0x1df ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0x28 ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0x22 ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0x6a ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0x2e ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0x10 ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0x28 ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0x3b ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0x34 ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0x26 ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000      0xe43 ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000      0x744 ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0x5e ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0x22 ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0x22 ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0x58 ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000      0x166 ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0x10 ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0x3a ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0x69 ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0x16 ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0x1c ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0x29 ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0x16 ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0x10 ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00000000       0x10 ./synergy/board/roverdemo/bsp_leds.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_qspi.o
- .text          0x00000000        0x0 ./synergy/board/roverdemo/bsp_qspi.o
- .data          0x00000000        0x0 ./synergy/board/roverdemo/bsp_qspi.o
- .bss           0x00000000        0x0 ./synergy/board/roverdemo/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_init.o
+ .text          0x00000000        0x0 ./synergy/board/syg_mdk/bsp_init.o
+ .data          0x00000000        0x0 ./synergy/board/syg_mdk/bsp_init.o
+ .bss           0x00000000        0x0 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000      0x874 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0x58 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0x22 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0x35 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0x9c ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0x16 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0x4a ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0xe3 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0x22 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000      0x1df ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0x28 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0x22 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0x6a ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0x2e ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0x10 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0x28 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0x3b ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0x34 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0x26 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000      0xe43 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000      0x744 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0x5e ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0x22 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0x22 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0x58 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000      0x166 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0x10 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0x3a ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0x69 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0x16 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0x1c ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0x29 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0x16 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0x10 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00000000       0x10 ./synergy/board/syg_mdk/bsp_init.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+ .text          0x00000000        0x0 ./synergy/board/syg_mdk/bsp_leds.o
+ .data          0x00000000        0x0 ./synergy/board/syg_mdk/bsp_leds.o
+ .bss           0x00000000        0x0 ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000      0x874 ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0x58 ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0x22 ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0x35 ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0x9c ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0x16 ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0x4a ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0xe3 ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0x22 ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000      0x1df ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0x28 ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0x22 ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0x6a ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0x2e ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0x10 ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0x28 ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0x3b ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0x34 ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0x26 ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000      0xe43 ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000      0x744 ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0x5e ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0x22 ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0x22 ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0x58 ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000      0x166 ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0x10 ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0x3a ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0x69 ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0x16 ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0x1c ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0x29 ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0x16 ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0x10 ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00000000       0x10 ./synergy/board/syg_mdk/bsp_leds.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_qspi.o
+ .text          0x00000000        0x0 ./synergy/board/syg_mdk/bsp_qspi.o
+ .data          0x00000000        0x0 ./synergy/board/syg_mdk/bsp_qspi.o
+ .bss           0x00000000        0x0 ./synergy/board/syg_mdk/bsp_qspi.o
  .text.bsp_qspi_xip_enter
-                0x00000000        0xc ./synergy/board/roverdemo/bsp_qspi.o
+                0x00000000        0xc ./synergy/board/syg_mdk/bsp_qspi.o
  .text.bsp_qspi_xip_exit
-                0x00000000        0xc ./synergy/board/roverdemo/bsp_qspi.o
+                0x00000000        0xc ./synergy/board/syg_mdk/bsp_qspi.o
  .data.MX25L12835FMI_flash_erase_sizes
-                0x00000000        0xc ./synergy/board/roverdemo/bsp_qspi.o
+                0x00000000        0xc ./synergy/board/syg_mdk/bsp_qspi.o
  .data.MX25L12835FMI_4byte_erase_commands
-                0x00000000        0x1 ./synergy/board/roverdemo/bsp_qspi.o
+                0x00000000        0x1 ./synergy/board/syg_mdk/bsp_qspi.o
  .data.MX25L12835FMI_erase_commands
-                0x00000000        0x4 ./synergy/board/roverdemo/bsp_qspi.o
+                0x00000000        0x4 ./synergy/board/syg_mdk/bsp_qspi.o
  .text.bsp_qspi_config_get
-                0x00000000       0x54 ./synergy/board/roverdemo/bsp_qspi.o
+                0x00000000       0x54 ./synergy/board/syg_mdk/bsp_qspi.o
  .text.bsp_qspi_erase_sizes_get
-                0x00000000       0x24 ./synergy/board/roverdemo/bsp_qspi.o
+                0x00000000       0x24 ./synergy/board/syg_mdk/bsp_qspi.o
  .text.bsp_qspi_erase_command_get
-                0x00000000       0x24 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000      0x874 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x22 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x22 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x44 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0xe3 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x22 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000      0x1df ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x22 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x58 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x35 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x9c ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x16 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x28 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x22 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x6a ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x2e ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x10 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x28 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x3b ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x34 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x26 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000      0xe43 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000      0x744 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x5e ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x58 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000      0x166 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x10 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x3a ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x69 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x16 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x1c ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x29 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x16 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x10 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x10 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x52 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x16 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x43 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000      0x180 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000      0x29d ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x10 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x00000000       0x35 ./synergy/board/roverdemo/bsp_qspi.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .group         0x00000000        0x8 ./synergy/board/roverdemo/bsp_sdram.o
- .text          0x00000000        0x0 ./synergy/board/roverdemo/bsp_sdram.o
- .data          0x00000000        0x0 ./synergy/board/roverdemo/bsp_sdram.o
- .bss           0x00000000        0x0 ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000      0x874 ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0x58 ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0x22 ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0x35 ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0x9c ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0x16 ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0x4a ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0xe3 ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0x22 ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000      0x1df ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0x28 ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0x22 ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0x6a ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0x2e ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0x10 ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0x28 ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0x3b ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0x34 ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0x26 ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000      0xe43 ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000      0x744 ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0x5e ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0x22 ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0x22 ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0x58 ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000      0x166 ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0x10 ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0x3a ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0x69 ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0x16 ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0x1c ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0x29 ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0x16 ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0x10 ./synergy/board/roverdemo/bsp_sdram.o
- .debug_macro   0x00000000       0x10 ./synergy/board/roverdemo/bsp_sdram.o
+                0x00000000       0x24 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000      0x874 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x58 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x22 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x35 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x9c ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x16 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x4a ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0xe3 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x22 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000      0x1df ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x28 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x22 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x6a ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x2e ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x10 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x28 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x3b ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x34 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x26 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000      0xe43 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000      0x744 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x5e ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x22 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x22 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x58 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000      0x166 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x10 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x3a ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x69 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x16 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x1c ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x29 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x16 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x10 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x10 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x52 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x16 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x43 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000      0x180 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000      0x29d ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x10 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x00000000       0x35 ./synergy/board/syg_mdk/bsp_qspi.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .group         0x00000000        0x8 ./synergy/board/syg_mdk/bsp_sdram.o
+ .text          0x00000000        0x0 ./synergy/board/syg_mdk/bsp_sdram.o
+ .data          0x00000000        0x0 ./synergy/board/syg_mdk/bsp_sdram.o
+ .bss           0x00000000        0x0 ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000      0x874 ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0x58 ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0x22 ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0x35 ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0x9c ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0x16 ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0x4a ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0xe3 ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0x22 ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000      0x1df ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0x28 ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0x22 ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0x6a ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0x2e ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0x10 ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0x28 ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0x3b ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0x34 ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0x26 ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000      0xe43 ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000      0x744 ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0x5e ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0x22 ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0x22 ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0x58 ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000      0x166 ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0x10 ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0x3a ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0x69 ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0x16 ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0x1c ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0x29 ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0x16 ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0x10 ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_macro   0x00000000       0x10 ./synergy/board/syg_mdk/bsp_sdram.o
  .group         0x00000000        0x8 ./src/synergy_gen/blinky_thread.o
  .group         0x00000000        0x8 ./src/synergy_gen/blinky_thread.o
  .group         0x00000000        0x8 ./src/synergy_gen/blinky_thread.o
@@ -8373,8 +8373,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x2e ./src/hal_entry.o
  .debug_macro   0x00000000       0x16 ./src/hal_entry.o
  .debug_macro   0x00000000       0x10 ./src/hal_entry.o
- .debug_line    0x00000000      0xc0f ./src/hal_entry.o
- .debug_str     0x00000000    0x11ab7 ./src/hal_entry.o
+ .debug_line    0x00000000      0xc0d ./src/hal_entry.o
+ .debug_str     0x00000000    0x11ab5 ./src/hal_entry.o
  .comment       0x00000000       0x71 ./src/hal_entry.o
  .debug_frame   0x00000000       0x30 ./src/hal_entry.o
  .ARM.attributes
@@ -10651,10 +10651,10 @@ LOAD ./synergy/ssp/src/bsp/mcu/all/bsp_register_protection.o
 LOAD ./synergy/ssp/src/bsp/mcu/all/bsp_sbrk.o
 LOAD ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/startup_S7G2.o
 LOAD ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/system_S7G2.o
-LOAD ./synergy/board/roverdemo/bsp_init.o
-LOAD ./synergy/board/roverdemo/bsp_leds.o
-LOAD ./synergy/board/roverdemo/bsp_qspi.o
-LOAD ./synergy/board/roverdemo/bsp_sdram.o
+LOAD ./synergy/board/syg_mdk/bsp_init.o
+LOAD ./synergy/board/syg_mdk/bsp_leds.o
+LOAD ./synergy/board/syg_mdk/bsp_qspi.o
+LOAD ./synergy/board/syg_mdk/bsp_sdram.o
 LOAD ./src/synergy_gen/blinky_thread.o
 LOAD ./src/synergy_gen/bluetooth_thread.o
 LOAD ./src/synergy_gen/common_data.o
@@ -10716,7 +10716,7 @@ LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm
 LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libnosys.a
 END GROUP
 
-.text           0x00000000    0x18c68
+.text           0x00000000    0x18c80
                 0x00000000                __ROM_Start = .
  *(.vectors)
  .vectors       0x00000000       0x40 ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/startup_S7G2.o
@@ -12698,295 +12698,295 @@ END GROUP
                 0x000141ec       0x14 ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/system_S7G2.o
                 0x000141ec                R_BSP_WarmStart
  .text.bsp_init
-                0x00014200       0x18 ./synergy/board/roverdemo/bsp_init.o
+                0x00014200       0x30 ./synergy/board/syg_mdk/bsp_init.o
                 0x00014200                bsp_init
  .text.bsp_qspi_device_reset
-                0x00014218       0x34 ./synergy/board/roverdemo/bsp_qspi.o
+                0x00014230       0x34 ./synergy/board/syg_mdk/bsp_qspi.o
  .text.bsp_qspi_init
-                0x0001424c      0x298 ./synergy/board/roverdemo/bsp_qspi.o
-                0x0001424c                bsp_qspi_init
+                0x00014264      0x298 ./synergy/board/syg_mdk/bsp_qspi.o
+                0x00014264                bsp_qspi_init
  .text.bsp_qspi_status_get
-                0x000144e4       0x4c ./synergy/board/roverdemo/bsp_qspi.o
-                0x000144e4                bsp_qspi_status_get
+                0x000144fc       0x4c ./synergy/board/syg_mdk/bsp_qspi.o
+                0x000144fc                bsp_qspi_status_get
  .text.bsp_sdram_init
-                0x00014530      0x194 ./synergy/board/roverdemo/bsp_sdram.o
-                0x00014530                bsp_sdram_init
+                0x00014548      0x194 ./synergy/board/syg_mdk/bsp_sdram.o
+                0x00014548                bsp_sdram_init
  .text.blinky_thread_create
-                0x000146c4       0x54 ./src/synergy_gen/blinky_thread.o
-                0x000146c4                blinky_thread_create
+                0x000146dc       0x54 ./src/synergy_gen/blinky_thread.o
+                0x000146dc                blinky_thread_create
  .text.blinky_thread_func
-                0x00014718       0x7c ./src/synergy_gen/blinky_thread.o
+                0x00014730       0x7c ./src/synergy_gen/blinky_thread.o
  .text.g_sf_bluetooth_comms_err_callback_internal
-                0x00014794       0x18 ./src/synergy_gen/bluetooth_thread.o
-                0x00014794                g_sf_bluetooth_comms_err_callback_internal
-                0x00014794                g_sf_bluetooth_comms_err_callback
+                0x000147ac       0x18 ./src/synergy_gen/bluetooth_thread.o
+                0x000147ac                g_sf_bluetooth_comms_err_callback_internal
+                0x000147ac                g_sf_bluetooth_comms_err_callback
  .text.bluetooth_thread_create
-                0x000147ac       0x54 ./src/synergy_gen/bluetooth_thread.o
-                0x000147ac                bluetooth_thread_create
+                0x000147c4       0x54 ./src/synergy_gen/bluetooth_thread.o
+                0x000147c4                bluetooth_thread_create
  .text.bluetooth_thread_func
-                0x00014800       0xb0 ./src/synergy_gen/bluetooth_thread.o
+                0x00014818       0xb0 ./src/synergy_gen/bluetooth_thread.o
  .text.g_common_init
-                0x000148b0        0xc ./src/synergy_gen/common_data.o
-                0x000148b0                g_common_init
+                0x000148c8        0xc ./src/synergy_gen/common_data.o
+                0x000148c8                g_common_init
  .text.datalogger_thread_create
-                0x000148bc       0x68 ./src/synergy_gen/datalogger_thread.o
-                0x000148bc                datalogger_thread_create
+                0x000148d4       0x68 ./src/synergy_gen/datalogger_thread.o
+                0x000148d4                datalogger_thread_create
  .text.datalogger_thread_func
-                0x00014924       0x7c ./src/synergy_gen/datalogger_thread.o
+                0x0001493c       0x7c ./src/synergy_gen/datalogger_thread.o
  .text.encoders_thread_create
-                0x000149a0       0x68 ./src/synergy_gen/encoders_thread.o
-                0x000149a0                encoders_thread_create
+                0x000149b8       0x68 ./src/synergy_gen/encoders_thread.o
+                0x000149b8                encoders_thread_create
  .text.encoders_thread_func
-                0x00014a08       0x7c ./src/synergy_gen/encoders_thread.o
+                0x00014a20       0x7c ./src/synergy_gen/encoders_thread.o
  .text.g_hal_init
-                0x00014a84        0xc ./src/synergy_gen/hal_data.o
-                0x00014a84                g_hal_init
+                0x00014a9c        0xc ./src/synergy_gen/hal_data.o
+                0x00014a9c                g_hal_init
  .text.led_driver_thread_create
-                0x00014a90       0x7c ./src/synergy_gen/led_driver_thread.o
-                0x00014a90                led_driver_thread_create
+                0x00014aa8       0x7c ./src/synergy_gen/led_driver_thread.o
+                0x00014aa8                led_driver_thread_create
  .text.led_driver_thread_func
-                0x00014b0c       0x7c ./src/synergy_gen/led_driver_thread.o
+                0x00014b24       0x7c ./src/synergy_gen/led_driver_thread.o
  .text.light_switch_thread_create
-                0x00014b88       0x68 ./src/synergy_gen/light_switch_thread.o
-                0x00014b88                light_switch_thread_create
+                0x00014ba0       0x68 ./src/synergy_gen/light_switch_thread.o
+                0x00014ba0                light_switch_thread_create
  .text.light_switch_thread_func
-                0x00014bf0       0x7c ./src/synergy_gen/light_switch_thread.o
+                0x00014c08       0x7c ./src/synergy_gen/light_switch_thread.o
  .text.tx_application_define_internal
-                0x00014c6c       0x14 ./src/synergy_gen/main.o
-                0x00014c6c                tx_application_define_user
-                0x00014c6c                tx_application_define_internal
+                0x00014c84       0x14 ./src/synergy_gen/main.o
+                0x00014c84                tx_application_define_user
+                0x00014c84                tx_application_define_internal
  .text.tx_application_define
-                0x00014c80       0x74 ./src/synergy_gen/main.o
-                0x00014c80                tx_application_define
- .text.main     0x00014cf4       0x10 ./src/synergy_gen/main.o
-                0x00014cf4                main
+                0x00014c98       0x74 ./src/synergy_gen/main.o
+                0x00014c98                tx_application_define
+ .text.main     0x00014d0c       0x10 ./src/synergy_gen/main.o
+                0x00014d0c                main
  .text.motor_controller_thread_create
-                0x00014d04       0x68 ./src/synergy_gen/motor_controller_thread.o
-                0x00014d04                motor_controller_thread_create
+                0x00014d1c       0x68 ./src/synergy_gen/motor_controller_thread.o
+                0x00014d1c                motor_controller_thread_create
  .text.motor_controller_thread_func
-                0x00014d6c       0x7c ./src/synergy_gen/motor_controller_thread.o
+                0x00014d84       0x7c ./src/synergy_gen/motor_controller_thread.o
  .text.g_sf_power_monitor_adc_periodic1_err_callback_internal
-                0x00014de8       0x18 ./src/synergy_gen/power_monitor_thread.o
-                0x00014de8                g_sf_power_monitor_adc_periodic1_err_callback
-                0x00014de8                g_sf_power_monitor_adc_periodic1_err_callback_internal
- .text.g_sf_power_monitor_adc_periodic0_err_callback_internal
                 0x00014e00       0x18 ./src/synergy_gen/power_monitor_thread.o
-                0x00014e00                g_sf_power_monitor_adc_periodic0_err_callback
-                0x00014e00                g_sf_power_monitor_adc_periodic0_err_callback_internal
+                0x00014e00                g_sf_power_monitor_adc_periodic1_err_callback
+                0x00014e00                g_sf_power_monitor_adc_periodic1_err_callback_internal
+ .text.g_sf_power_monitor_adc_periodic0_err_callback_internal
+                0x00014e18       0x18 ./src/synergy_gen/power_monitor_thread.o
+                0x00014e18                g_sf_power_monitor_adc_periodic0_err_callback
+                0x00014e18                g_sf_power_monitor_adc_periodic0_err_callback_internal
  .text.power_monitor_thread_create
-                0x00014e18       0x68 ./src/synergy_gen/power_monitor_thread.o
-                0x00014e18                power_monitor_thread_create
+                0x00014e30       0x68 ./src/synergy_gen/power_monitor_thread.o
+                0x00014e30                power_monitor_thread_create
  .text.power_monitor_thread_func
-                0x00014e80       0xd8 ./src/synergy_gen/power_monitor_thread.o
+                0x00014e98       0xd8 ./src/synergy_gen/power_monitor_thread.o
  .text.rover_thread_create
-                0x00014f58       0x90 ./src/synergy_gen/rover_thread.o
-                0x00014f58                rover_thread_create
+                0x00014f70       0x90 ./src/synergy_gen/rover_thread.o
+                0x00014f70                rover_thread_create
  .text.rover_thread_func
-                0x00014fe8       0x7c ./src/synergy_gen/rover_thread.o
+                0x00015000       0x7c ./src/synergy_gen/rover_thread.o
  .text.ultrasonic_sensor_thread_create
-                0x00015064       0x68 ./src/synergy_gen/ultrasonic_sensor_thread.o
-                0x00015064                ultrasonic_sensor_thread_create
+                0x0001507c       0x68 ./src/synergy_gen/ultrasonic_sensor_thread.o
+                0x0001507c                ultrasonic_sensor_thread_create
  .text.ultrasonic_sensor_thread_func
-                0x000150cc       0x7c ./src/synergy_gen/ultrasonic_sensor_thread.o
+                0x000150e4       0x7c ./src/synergy_gen/ultrasonic_sensor_thread.o
  .text.IBuildLEDSelector
-                0x00015148       0x58 ./src/LED_NXP_PCA9551_driver.o
+                0x00015160       0x58 ./src/LED_NXP_PCA9551_driver.o
  .text.IUpdateLEDs
-                0x000151a0       0x58 ./src/LED_NXP_PCA9551_driver.o
-                0x000151a0                IUpdateLEDs
+                0x000151b8       0x58 ./src/LED_NXP_PCA9551_driver.o
+                0x000151b8                IUpdateLEDs
  .text.LED_NXP_PCA9551_InitializeWorkspace
-                0x000151f8       0x3c ./src/LED_NXP_PCA9551_driver.o
-                0x000151f8                LED_NXP_PCA9551_InitializeWorkspace
+                0x00015210       0x3c ./src/LED_NXP_PCA9551_driver.o
+                0x00015210                LED_NXP_PCA9551_InitializeWorkspace
  .text.LED_NXP_PCA9551_SetBlinkRate
-                0x00015234       0x80 ./src/LED_NXP_PCA9551_driver.o
-                0x00015234                LED_NXP_PCA9551_SetBlinkRate
+                0x0001524c       0x80 ./src/LED_NXP_PCA9551_driver.o
+                0x0001524c                LED_NXP_PCA9551_SetBlinkRate
  .text.blinky_thread_entry
-                0x000152b4       0x78 ./src/blinky_thread_entry.o
-                0x000152b4                blinky_thread_entry
+                0x000152cc       0x78 ./src/blinky_thread_entry.o
+                0x000152cc                blinky_thread_entry
  .text.bt_reset
-                0x0001532c       0x6c ./src/bluetooth.o
-                0x0001532c                bt_reset
+                0x00015344       0x6c ./src/bluetooth.o
+                0x00015344                bt_reset
  .text.bt_connect
-                0x00015398       0x64 ./src/bluetooth.o
-                0x00015398                bt_connect
- .text.bt_read  0x000153fc       0x94 ./src/bluetooth.o
-                0x000153fc                bt_read
+                0x000153b0       0x64 ./src/bluetooth.o
+                0x000153b0                bt_connect
+ .text.bt_read  0x00015414       0x94 ./src/bluetooth.o
+                0x00015414                bt_read
  .text.bt_cmd_eval
-                0x00015490      0x204 ./src/bluetooth.o
-                0x00015490                bt_cmd_eval
+                0x000154a8      0x204 ./src/bluetooth.o
+                0x000154a8                bt_cmd_eval
  .text.bt_cmd_set
-                0x00015694       0x20 ./src/bluetooth.o
-                0x00015694                bt_cmd_set
+                0x000156ac       0x20 ./src/bluetooth.o
+                0x000156ac                bt_cmd_set
  .text.bt_cmd_get
-                0x000156b4       0x18 ./src/bluetooth.o
-                0x000156b4                bt_cmd_get
+                0x000156cc       0x18 ./src/bluetooth.o
+                0x000156cc                bt_cmd_get
  .text.bluetooth_thread_entry
-                0x000156cc       0x64 ./src/bluetooth_thread_entry.o
-                0x000156cc                bluetooth_thread_entry
+                0x000156e4       0x64 ./src/bluetooth_thread_entry.o
+                0x000156e4                bluetooth_thread_entry
  .text.datalogger_cmd_write
-                0x00015730       0xb8 ./src/datalogger.o
-                0x00015730                datalogger_cmd_write
+                0x00015748       0xb8 ./src/datalogger.o
+                0x00015748                datalogger_cmd_write
  .text.datalogger_cmd_read
-                0x000157e8      0x104 ./src/datalogger.o
-                0x000157e8                datalogger_cmd_read
+                0x00015800      0x104 ./src/datalogger.o
+                0x00015800                datalogger_cmd_read
  .text.datalogger_mode_reset
-                0x000158ec       0x80 ./src/datalogger.o
-                0x000158ec                datalogger_mode_reset
+                0x00015904       0x80 ./src/datalogger.o
+                0x00015904                datalogger_mode_reset
  .text.datalogger_timer_callback
-                0x0001596c       0x48 ./src/datalogger.o
-                0x0001596c                datalogger_timer_callback
+                0x00015984       0x48 ./src/datalogger.o
+                0x00015984                datalogger_timer_callback
  .text.datalogger_thread_entry
-                0x000159b4       0x84 ./src/datalogger_thread_entry.o
-                0x000159b4                datalogger_thread_entry
+                0x000159cc       0x84 ./src/datalogger_thread_entry.o
+                0x000159cc                datalogger_thread_entry
  .text.encoders_update
-                0x00015a38      0x288 ./src/encoders.o
-                0x00015a38                encoders_update
+                0x00015a50      0x288 ./src/encoders.o
+                0x00015a50                encoders_update
  .text.encoders_timer_mode_update
-                0x00015cc0       0x5c ./src/encoders.o
-                0x00015cc0                encoders_timer_mode_update
+                0x00015cd8       0x5c ./src/encoders.o
+                0x00015cd8                encoders_timer_mode_update
  .text.encoders_thread_entry
-                0x00015d1c       0x5c ./src/encoders_thread_entry.o
-                0x00015d1c                encoders_thread_entry
+                0x00015d34       0x5c ./src/encoders_thread_entry.o
+                0x00015d34                encoders_thread_entry
  .text.encoders_timer_callback
-                0x00015d78       0x4c ./src/encoders_thread_entry.o
-                0x00015d78                encoders_timer_callback
+                0x00015d90       0x4c ./src/encoders_thread_entry.o
+                0x00015d90                encoders_timer_callback
  .text.led_driver_update
-                0x00015dc4       0xd4 ./src/led_driver.o
-                0x00015dc4                led_driver_update
+                0x00015ddc       0xd4 ./src/led_driver.o
+                0x00015ddc                led_driver_update
  .text.led_driver_headlights_update
-                0x00015e98       0x68 ./src/led_driver.o
-                0x00015e98                led_driver_headlights_update
+                0x00015eb0       0x68 ./src/led_driver.o
+                0x00015eb0                led_driver_headlights_update
  .text.led_driver_taillights_update
-                0x00015f00       0x68 ./src/led_driver.o
-                0x00015f00                led_driver_taillights_update
+                0x00015f18       0x68 ./src/led_driver.o
+                0x00015f18                led_driver_taillights_update
  .text.led_driver_turn_signal_update
-                0x00015f68       0xc0 ./src/led_driver.o
-                0x00015f68                led_driver_turn_signal_update
+                0x00015f80       0xc0 ./src/led_driver.o
+                0x00015f80                led_driver_turn_signal_update
  .text.led_driver_init
-                0x00016028       0x54 ./src/led_driver.o
-                0x00016028                led_driver_init
+                0x00016040       0x54 ./src/led_driver.o
+                0x00016040                led_driver_init
  .text.led_driver_thread_entry
-                0x0001607c       0x24 ./src/led_driver_thread_entry.o
-                0x0001607c                led_driver_thread_entry
+                0x00016094       0x24 ./src/led_driver_thread_entry.o
+                0x00016094                led_driver_thread_entry
  .text.light_switch_state_update
-                0x000160a0       0x48 ./src/light_switch.o
-                0x000160a0                light_switch_state_update
+                0x000160b8       0x48 ./src/light_switch.o
+                0x000160b8                light_switch_state_update
  .text.light_switch_thread_entry
-                0x000160e8       0x30 ./src/light_switch_thread_entry.o
-                0x000160e8                light_switch_thread_entry
+                0x00016100       0x30 ./src/light_switch_thread_entry.o
+                0x00016100                light_switch_thread_entry
  .text.light_switch_callback
-                0x00016118       0x18 ./src/light_switch_thread_entry.o
-                0x00016118                light_switch_callback
+                0x00016130       0x18 ./src/light_switch_thread_entry.o
+                0x00016130                light_switch_callback
  .text.motor_controller_update
-                0x00016130      0x160 ./src/motor_controller.o
-                0x00016130                motor_controller_update
+                0x00016148      0x160 ./src/motor_controller.o
+                0x00016148                motor_controller_update
  .text.motor_controller_estop_set
-                0x00016290       0x18 ./src/motor_controller.o
-                0x00016290                motor_controller_estop_set
- .text.motor_controller_estop_unset
                 0x000162a8       0x18 ./src/motor_controller.o
-                0x000162a8                motor_controller_estop_unset
+                0x000162a8                motor_controller_estop_set
+ .text.motor_controller_estop_unset
+                0x000162c0       0x18 ./src/motor_controller.o
+                0x000162c0                motor_controller_estop_unset
  .text.motor_controller_thread_entry
-                0x000162c0       0x88 ./src/motor_controller_thread_entry.o
-                0x000162c0                motor_controller_thread_entry
+                0x000162d8       0x88 ./src/motor_controller_thread_entry.o
+                0x000162d8                motor_controller_thread_entry
  .text.power_monitor_thread_entry
-                0x00016348      0x188 ./src/power_monitor_thread_entry.o
-                0x00016348                power_monitor_thread_entry
+                0x00016360      0x188 ./src/power_monitor_thread_entry.o
+                0x00016360                power_monitor_thread_entry
  .text.g_battery_monitor_adc_callback
-                0x000164d0       0x18 ./src/power_monitor_thread_entry.o
-                0x000164d0                g_battery_monitor_adc_callback
+                0x000164e8       0x18 ./src/power_monitor_thread_entry.o
+                0x000164e8                g_battery_monitor_adc_callback
  .text.rover_cmd_update
-                0x000164e8      0x298 ./src/rover.o
-                0x000164e8                rover_cmd_update
+                0x00016500      0x298 ./src/rover.o
+                0x00016500                rover_cmd_update
  .text.rover_btn_update
-                0x00016780       0x94 ./src/rover.o
-                0x00016780                rover_btn_update
+                0x00016798       0x94 ./src/rover.o
+                0x00016798                rover_btn_update
  .text.rover_mode_get
-                0x00016814       0x18 ./src/rover.o
-                0x00016814                rover_mode_get
+                0x0001682c       0x18 ./src/rover.o
+                0x0001682c                rover_mode_get
  .text.rover_mode_set
-                0x0001682c       0x20 ./src/rover.o
-                0x0001682c                rover_mode_set
+                0x00016844       0x20 ./src/rover.o
+                0x00016844                rover_mode_set
  .text.rover_state_get
-                0x0001684c       0x20 ./src/rover.o
-                0x0001684c                rover_state_get
+                0x00016864       0x20 ./src/rover.o
+                0x00016864                rover_state_get
  .text.rover_state_set
-                0x0001686c       0x20 ./src/rover.o
-                0x0001686c                rover_state_set
+                0x00016884       0x20 ./src/rover.o
+                0x00016884                rover_state_set
  .text.rover_cmd_get
-                0x0001688c       0x20 ./src/rover.o
-                0x0001688c                rover_cmd_get
+                0x000168a4       0x20 ./src/rover.o
+                0x000168a4                rover_cmd_get
  .text.rover_speed_get
-                0x000168ac       0x24 ./src/rover.o
-                0x000168ac                rover_speed_get
+                0x000168c4       0x24 ./src/rover.o
+                0x000168c4                rover_speed_get
  .text.rover_thread_entry
-                0x000168d0       0xd8 ./src/rover_thread_entry.o
-                0x000168d0                rover_thread_entry
+                0x000168e8       0xd8 ./src/rover_thread_entry.o
+                0x000168e8                rover_thread_entry
  .text.ultrasonic_sensor_update
-                0x000169a8      0x1d0 ./src/ultrasonic_sensor.o
-                0x000169a8                ultrasonic_sensor_update
+                0x000169c0      0x1d0 ./src/ultrasonic_sensor.o
+                0x000169c0                ultrasonic_sensor_update
  .text.ultrasonic_sensor_init
-                0x00016b78      0x15c ./src/ultrasonic_sensor.o
-                0x00016b78                ultrasonic_sensor_init
+                0x00016b90      0x15c ./src/ultrasonic_sensor.o
+                0x00016b90                ultrasonic_sensor_init
  .text.ultrasonic_sensor_range_check
-                0x00016cd4       0xcc ./src/ultrasonic_sensor.o
-                0x00016cd4                ultrasonic_sensor_range_check
+                0x00016cec       0xcc ./src/ultrasonic_sensor.o
+                0x00016cec                ultrasonic_sensor_range_check
  .text.ultrasonic_sensor_thread_entry
-                0x00016da0       0x30 ./src/ultrasonic_sensor_thread_entry.o
-                0x00016da0                ultrasonic_sensor_thread_entry
+                0x00016db8       0x30 ./src/ultrasonic_sensor_thread_entry.o
+                0x00016db8                ultrasonic_sensor_thread_entry
  .text.ping_callback
-                0x00016dd0       0x18 ./src/ultrasonic_sensor_thread_entry.o
-                0x00016dd0                ping_callback
- .text          0x00016de8      0x370 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a(_arm_addsubdf3.o)
-                0x00016de8                __aeabi_drsub
-                0x00016df0                __aeabi_dsub
-                0x00016df0                __subdf3
-                0x00016df4                __aeabi_dadd
-                0x00016df4                __adddf3
-                0x0001706c                __floatunsidf
-                0x0001706c                __aeabi_ui2d
-                0x0001708c                __floatsidf
-                0x0001708c                __aeabi_i2d
-                0x000170b0                __aeabi_f2d
-                0x000170b0                __extendsfdf2
-                0x000170ec                __floatundidf
-                0x000170ec                __aeabi_ul2d
-                0x000170fc                __floatdidf
-                0x000170fc                __aeabi_l2d
- .text          0x00017158      0x424 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a(_arm_muldivdf3.o)
-                0x00017158                __aeabi_dmul
-                0x00017158                __muldf3
-                0x000173ac                __divdf3
-                0x000173ac                __aeabi_ddiv
- .text          0x0001757c       0x38 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a(_aeabi_ldivmod.o)
-                0x0001757c                __aeabi_ldivmod
- .text          0x000175b4       0x30 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a(_aeabi_uldivmod.o)
-                0x000175b4                __aeabi_uldivmod
- .text          0x000175e4       0x60 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a(bpabi.o)
-                0x000175e4                __gnu_ldivmod_helper
-                0x00017614                __gnu_uldivmod_helper
- .text          0x00017644        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a(_dvmd_tls.o)
-                0x00017644                __aeabi_idiv0
-                0x00017644                __aeabi_ldiv0
- .text          0x00017648      0x29c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a(_divdi3.o)
-                0x00017648                __divdi3
- .text          0x000178e4      0x26c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a(_udivdi3.o)
-                0x000178e4                __udivdi3
- .text.memcpy   0x00017b50       0x16 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_nano.a(lib_a-memcpy.o)
-                0x00017b50                memcpy
- .text.memset   0x00017b66       0x10 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_nano.a(lib_a-memset.o)
-                0x00017b66                memset
+                0x00016de8       0x18 ./src/ultrasonic_sensor_thread_entry.o
+                0x00016de8                ping_callback
+ .text          0x00016e00      0x370 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a(_arm_addsubdf3.o)
+                0x00016e00                __aeabi_drsub
+                0x00016e08                __aeabi_dsub
+                0x00016e08                __subdf3
+                0x00016e0c                __aeabi_dadd
+                0x00016e0c                __adddf3
+                0x00017084                __floatunsidf
+                0x00017084                __aeabi_ui2d
+                0x000170a4                __floatsidf
+                0x000170a4                __aeabi_i2d
+                0x000170c8                __aeabi_f2d
+                0x000170c8                __extendsfdf2
+                0x00017104                __floatundidf
+                0x00017104                __aeabi_ul2d
+                0x00017114                __floatdidf
+                0x00017114                __aeabi_l2d
+ .text          0x00017170      0x424 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a(_arm_muldivdf3.o)
+                0x00017170                __aeabi_dmul
+                0x00017170                __muldf3
+                0x000173c4                __divdf3
+                0x000173c4                __aeabi_ddiv
+ .text          0x00017594       0x38 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a(_aeabi_ldivmod.o)
+                0x00017594                __aeabi_ldivmod
+ .text          0x000175cc       0x30 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a(_aeabi_uldivmod.o)
+                0x000175cc                __aeabi_uldivmod
+ .text          0x000175fc       0x60 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a(bpabi.o)
+                0x000175fc                __gnu_ldivmod_helper
+                0x0001762c                __gnu_uldivmod_helper
+ .text          0x0001765c        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a(_dvmd_tls.o)
+                0x0001765c                __aeabi_idiv0
+                0x0001765c                __aeabi_ldiv0
+ .text          0x00017660      0x29c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a(_divdi3.o)
+                0x00017660                __divdi3
+ .text          0x000178fc      0x26c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a(_udivdi3.o)
+                0x000178fc                __udivdi3
+ .text.memcpy   0x00017b68       0x16 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_nano.a(lib_a-memcpy.o)
+                0x00017b68                memcpy
+ .text.memset   0x00017b7e       0x10 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libg_nano.a(lib_a-memset.o)
+                0x00017b7e                memset
  *(.version)
- *fill*         0x00017b76        0x2 ff
- .version       0x00017b78       0x5e ./synergy/ssp/src/bsp/mcu/all/bsp_common.o
+ *fill*         0x00017b8e        0x2 ff
+ .version       0x00017b90       0x5e ./synergy/ssp/src/bsp/mcu/all/bsp_common.o
  *(.init)
- *fill*         0x00017bd6        0x2 ff
- .init          0x00017bd8        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crti.o
-                0x00017bd8                _init
- .init          0x00017bdc        0x8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
+ *fill*         0x00017bee        0x2 ff
+ .init          0x00017bf0        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crti.o
+                0x00017bf0                _init
+ .init          0x00017bf4        0x8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
  *(.fini)
- .fini          0x00017be4        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crti.o
-                0x00017be4                _fini
- .fini          0x00017be8        0x8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
+ .fini          0x00017bfc        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crti.o
+                0x00017bfc                _fini
+ .fini          0x00017c00        0x8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -12999,311 +12999,311 @@ END GROUP
  *(.dtors)
  *(.rodata*)
  .rodata.module_version
-                0x00017bf0        0x4 ./synergy/ssp/src/framework/sf_uart_comms/sf_uart_comms.o
+                0x00017c08        0x4 ./synergy/ssp/src/framework/sf_uart_comms/sf_uart_comms.o
  .rodata.g_sf_comms_on_sf_uart_comms
-                0x00017bf4       0x1c ./synergy/ssp/src/framework/sf_uart_comms/sf_uart_comms.o
-                0x00017bf4                g_sf_comms_on_sf_uart_comms
- .rodata        0x00017c10       0x16 ./synergy/ssp/src/framework/sf_uart_comms/sf_uart_comms.o
- *fill*         0x00017c26        0x2 ff
+                0x00017c0c       0x1c ./synergy/ssp/src/framework/sf_uart_comms/sf_uart_comms.o
+                0x00017c0c                g_sf_comms_on_sf_uart_comms
+ .rodata        0x00017c28       0x16 ./synergy/ssp/src/framework/sf_uart_comms/sf_uart_comms.o
+ *fill*         0x00017c3e        0x2 ff
  .rodata.g_sf_i2c_version
-                0x00017c28        0x4 ./synergy/ssp/src/framework/sf_i2c/sf_i2c.o
+                0x00017c40        0x4 ./synergy/ssp/src/framework/sf_i2c/sf_i2c.o
  .rodata.g_sf_i2c_on_sf_i2c
-                0x00017c2c       0x20 ./synergy/ssp/src/framework/sf_i2c/sf_i2c.o
-                0x00017c2c                g_sf_i2c_on_sf_i2c
+                0x00017c44       0x20 ./synergy/ssp/src/framework/sf_i2c/sf_i2c.o
+                0x00017c44                g_sf_i2c_on_sf_i2c
  .rodata.s_sf_adc_periodic_version
-                0x00017c4c        0x4 ./synergy/ssp/src/framework/sf_adc_periodic/sf_adc_periodic.o
+                0x00017c64        0x4 ./synergy/ssp/src/framework/sf_adc_periodic/sf_adc_periodic.o
  .rodata.g_sf_adc_periodic_on_sf_adc_periodic
-                0x00017c50       0x14 ./synergy/ssp/src/framework/sf_adc_periodic/sf_adc_periodic.o
-                0x00017c50                g_sf_adc_periodic_on_sf_adc_periodic
+                0x00017c68       0x14 ./synergy/ssp/src/framework/sf_adc_periodic/sf_adc_periodic.o
+                0x00017c68                g_sf_adc_periodic_on_sf_adc_periodic
  .rodata.async_baud
-                0x00017c64       0x4e ./synergy/ssp/src/driver/r_sci_uart/r_sci_uart.o
- *fill*         0x00017cb2        0x2 ff
+                0x00017c7c       0x4e ./synergy/ssp/src/driver/r_sci_uart/r_sci_uart.o
+ *fill*         0x00017cca        0x2 ff
  .rodata.g_sci_uart_fifo_depth
-                0x00017cb4        0x4 ./synergy/ssp/src/driver/r_sci_uart/r_sci_uart.o
+                0x00017ccc        0x4 ./synergy/ssp/src/driver/r_sci_uart/r_sci_uart.o
  .rodata.g_uart_on_sci
-                0x00017cb8       0x1c ./synergy/ssp/src/driver/r_sci_uart/r_sci_uart.o
-                0x00017cb8                g_uart_on_sci
+                0x00017cd0       0x1c ./synergy/ssp/src/driver/r_sci_uart/r_sci_uart.o
+                0x00017cd0                g_uart_on_sci
  .rodata.g_riic_master_version
-                0x00017cd4        0x4 ./synergy/ssp/src/driver/r_riic/r_riic.o
+                0x00017cec        0x4 ./synergy/ssp/src/driver/r_riic/r_riic.o
  .rodata.g_i2c_master_on_riic
-                0x00017cd8       0x1c ./synergy/ssp/src/driver/r_riic/r_riic.o
-                0x00017cd8                g_i2c_master_on_riic
+                0x00017cf0       0x1c ./synergy/ssp/src/driver/r_riic/r_riic.o
+                0x00017cf0                g_i2c_master_on_riic
  .rodata.g_ioport_on_ioport
-                0x00017cf4       0x3c ./synergy/ssp/src/driver/r_ioport/r_ioport.o
-                0x00017cf4                g_ioport_on_ioport
+                0x00017d0c       0x3c ./synergy/ssp/src/driver/r_ioport/r_ioport.o
+                0x00017d0c                g_ioport_on_ioport
  .rodata.g_vbatt_pins_input
-                0x00017d30        0x6 ./synergy/ssp/src/driver/r_ioport/r_ioport.o
- *fill*         0x00017d36        0x2 ff
+                0x00017d48        0x6 ./synergy/ssp/src/driver/r_ioport/r_ioport.o
+ *fill*         0x00017d4e        0x2 ff
  .rodata.g_icu_version
-                0x00017d38        0x4 ./synergy/ssp/src/driver/r_icu/r_icu.o
+                0x00017d50        0x4 ./synergy/ssp/src/driver/r_icu/r_icu.o
  .rodata.g_external_irq_on_icu
-                0x00017d3c       0x20 ./synergy/ssp/src/driver/r_icu/r_icu.o
-                0x00017d3c                g_external_irq_on_icu
+                0x00017d54       0x20 ./synergy/ssp/src/driver/r_icu/r_icu.o
+                0x00017d54                g_external_irq_on_icu
  .rodata.g_gpt_version
-                0x00017d5c        0x4 ./synergy/ssp/src/driver/r_gpt/r_gpt.o
+                0x00017d74        0x4 ./synergy/ssp/src/driver/r_gpt/r_gpt.o
  .rodata.g_timer_on_gpt
-                0x00017d60       0x28 ./synergy/ssp/src/driver/r_gpt/r_gpt.o
-                0x00017d60                g_timer_on_gpt
+                0x00017d78       0x28 ./synergy/ssp/src/driver/r_gpt/r_gpt.o
+                0x00017d78                g_timer_on_gpt
  .rodata.bit_count
-                0x00017d88       0x80 ./synergy/ssp/src/driver/r_fmi/r_fmi.o
+                0x00017da0       0x80 ./synergy/ssp/src/driver/r_fmi/r_fmi.o
  .rodata.bit_count_mask
-                0x00017e08        0x8 ./synergy/ssp/src/driver/r_fmi/r_fmi.o
+                0x00017e20        0x8 ./synergy/ssp/src/driver/r_fmi/r_fmi.o
  .rodata.g_fmi_version
-                0x00017e10        0x4 ./synergy/ssp/src/driver/r_fmi/r_fmi.o
+                0x00017e28        0x4 ./synergy/ssp/src/driver/r_fmi/r_fmi.o
  .rodata.g_fmi_on_fmi
-                0x00017e14       0x18 ./synergy/ssp/src/driver/r_fmi/r_fmi.o
-                0x00017e14                g_fmi_on_fmi
+                0x00017e2c       0x18 ./synergy/ssp/src/driver/r_fmi/r_fmi.o
+                0x00017e2c                g_fmi_on_fmi
  .rodata.s_elc_version
-                0x00017e2c        0x4 ./synergy/ssp/src/driver/r_elc/r_elc.o
+                0x00017e44        0x4 ./synergy/ssp/src/driver/r_elc/r_elc.o
  .rodata.g_elc_on_elc
-                0x00017e30       0x1c ./synergy/ssp/src/driver/r_elc/r_elc.o
-                0x00017e30                g_elc_on_elc
+                0x00017e48       0x1c ./synergy/ssp/src/driver/r_elc/r_elc.o
+                0x00017e48                g_elc_on_elc
  .rodata.g_dtc_version
-                0x00017e4c        0x4 ./synergy/ssp/src/driver/r_dtc/r_dtc.o
+                0x00017e64        0x4 ./synergy/ssp/src/driver/r_dtc/r_dtc.o
  .rodata.g_transfer_on_dtc
-                0x00017e50       0x28 ./synergy/ssp/src/driver/r_dtc/r_dtc.o
-                0x00017e50                g_transfer_on_dtc
+                0x00017e68       0x28 ./synergy/ssp/src/driver/r_dtc/r_dtc.o
+                0x00017e68                g_transfer_on_dtc
  .rodata.g_pllccr_div_value
-                0x00017e78        0x6 ./synergy/ssp/src/driver/r_cgc/hw/hw_cgc.o
- *fill*         0x00017e7e        0x2 ff
+                0x00017e90        0x6 ./synergy/ssp/src/driver/r_cgc/hw/hw_cgc.o
+ *fill*         0x00017e96        0x2 ff
  .rodata.g_pllccr_div_setting
-                0x00017e80        0x6 ./synergy/ssp/src/driver/r_cgc/hw/hw_cgc.o
- *fill*         0x00017e86        0x2 ff
+                0x00017e98        0x6 ./synergy/ssp/src/driver/r_cgc/hw/hw_cgc.o
+ *fill*         0x00017e9e        0x2 ff
  .rodata.g_pllccr2_div_value
-                0x00017e88        0x6 ./synergy/ssp/src/driver/r_cgc/hw/hw_cgc.o
- *fill*         0x00017e8e        0x2 ff
+                0x00017ea0        0x6 ./synergy/ssp/src/driver/r_cgc/hw/hw_cgc.o
+ *fill*         0x00017ea6        0x2 ff
  .rodata.g_pllccr2_div_setting
-                0x00017e90        0x8 ./synergy/ssp/src/driver/r_cgc/hw/hw_cgc.o
+                0x00017ea8        0x8 ./synergy/ssp/src/driver/r_cgc/hw/hw_cgc.o
  .rodata.g_cgc_version
-                0x00017e98        0x4 ./synergy/ssp/src/driver/r_cgc/r_cgc.o
+                0x00017eb0        0x4 ./synergy/ssp/src/driver/r_cgc/r_cgc.o
  .rodata.g_lcd_clock_settings
-                0x00017e9c        0x6 ./synergy/ssp/src/driver/r_cgc/r_cgc.o
- *fill*         0x00017ea2        0x2 ff
+                0x00017eb4        0x6 ./synergy/ssp/src/driver/r_cgc/r_cgc.o
+ *fill*         0x00017eba        0x2 ff
  .rodata.g_cgc_on_cgc
-                0x00017ea4       0x60 ./synergy/ssp/src/driver/r_cgc/r_cgc.o
-                0x00017ea4                g_cgc_on_cgc
+                0x00017ebc       0x60 ./synergy/ssp/src/driver/r_cgc/r_cgc.o
+                0x00017ebc                g_cgc_on_cgc
  .rodata.s_adc_version
-                0x00017f04        0x4 ./synergy/ssp/src/driver/r_adc/r_adc.o
+                0x00017f1c        0x4 ./synergy/ssp/src/driver/r_adc/r_adc.o
  .rodata.g_adc_on_adc
-                0x00017f08       0x28 ./synergy/ssp/src/driver/r_adc/r_adc.o
-                0x00017f08                g_adc_on_adc
+                0x00017f20       0x28 ./synergy/ssp/src/driver/r_adc/r_adc.o
+                0x00017f20                g_adc_on_adc
  .rodata.g_cgc_feature
-                0x00017f30       0x2c ./synergy/ssp/src/bsp/mcu/s7g2/bsp_feature.o
+                0x00017f48       0x2c ./synergy/ssp/src/bsp/mcu/s7g2/bsp_feature.o
  .rodata.g_fmi_data
-                0x00017f5c      0x400 ./synergy/ssp/src/bsp/mcu/s7g2/bsp_fmi_R7FS7G27H2A01CBD.o
-                0x00017f5c                g_fmi_data
+                0x00017f74      0x400 ./synergy/ssp/src/bsp/mcu/s7g2/bsp_fmi_R7FS7G27H2A01CBD.o
+                0x00017f74                g_fmi_data
  .rodata.g_bsp_module_stop
-                0x0001835c       0x46 ./synergy/ssp/src/bsp/mcu/s7g2/bsp_module_stop.o
- *fill*         0x000183a2        0x2 ff
+                0x00018374       0x46 ./synergy/ssp/src/bsp/mcu/s7g2/bsp_module_stop.o
+ *fill*         0x000183ba        0x2 ff
  .rodata.gp_mstp
-                0x000183a4       0x10 ./synergy/ssp/src/bsp/mcu/s7g2/bsp_module_stop.o
+                0x000183bc       0x10 ./synergy/ssp/src/bsp/mcu/s7g2/bsp_module_stop.o
  .rodata.gp_vector_information
-                0x000183b4        0x4 ./synergy/ssp/src/bsp/mcu/all/bsp_irq.o
-                0x000183b4                gp_vector_information
+                0x000183cc        0x4 ./synergy/ssp/src/bsp/mcu/all/bsp_irq.o
+                0x000183cc                gp_vector_information
  .rodata.g_prcr_masks
-                0x000183b8        0x6 ./synergy/ssp/src/bsp/mcu/all/bsp_register_protection.o
- *fill*         0x000183be        0x2 ff
+                0x000183d0        0x6 ./synergy/ssp/src/bsp/mcu/all/bsp_register_protection.o
+ *fill*         0x000183d6        0x2 ff
  .rodata.g_elc_cfg
-                0x000183c0        0xc ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/system_S7G2.o
+                0x000183d8        0xc ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/system_S7G2.o
  .rodata.g_bsp_prv_leds
-                0x000183cc        0x6 ./synergy/board/roverdemo/bsp_leds.o
- *fill*         0x000183d2        0x2 ff
- .rodata.g_bsp_leds
-                0x000183d4        0x8 ./synergy/board/roverdemo/bsp_leds.o
-                0x000183d4                g_bsp_leds
- .rodata        0x000183dc        0xe ./src/synergy_gen/blinky_thread.o
+                0x000183e4        0x6 ./synergy/board/syg_mdk/bsp_leds.o
  *fill*         0x000183ea        0x2 ff
+ .rodata.g_bsp_leds
+                0x000183ec        0x8 ./synergy/board/syg_mdk/bsp_leds.o
+                0x000183ec                g_bsp_leds
+ .rodata        0x000183f4        0xe ./src/synergy_gen/blinky_thread.o
+ *fill*         0x00018402        0x2 ff
  .rodata.g_bluetooth_uart_cfg_extend
-                0x000183ec        0xc ./src/synergy_gen/bluetooth_thread.o
-                0x000183ec                g_bluetooth_uart_cfg_extend
+                0x00018404        0xc ./src/synergy_gen/bluetooth_thread.o
+                0x00018404                g_bluetooth_uart_cfg_extend
  .rodata.g_bluetooth_uart_cfg
-                0x000183f8       0x24 ./src/synergy_gen/bluetooth_thread.o
-                0x000183f8                g_bluetooth_uart_cfg
+                0x00018410       0x24 ./src/synergy_gen/bluetooth_thread.o
+                0x00018410                g_bluetooth_uart_cfg
  .rodata.g_bluetooth_uart
-                0x0001841c        0xc ./src/synergy_gen/bluetooth_thread.o
-                0x0001841c                g_bluetooth_uart
+                0x00018434        0xc ./src/synergy_gen/bluetooth_thread.o
+                0x00018434                g_bluetooth_uart
  .rodata.g_sf_bluetooth_comms_cfg_extend
-                0x00018428        0x4 ./src/synergy_gen/bluetooth_thread.o
+                0x00018440        0x4 ./src/synergy_gen/bluetooth_thread.o
  .rodata.g_sf_bluetooth_comms_cfg
-                0x0001842c        0x4 ./src/synergy_gen/bluetooth_thread.o
+                0x00018444        0x4 ./src/synergy_gen/bluetooth_thread.o
  .rodata.g_sf_bluetooth_comms
-                0x00018430        0xc ./src/synergy_gen/bluetooth_thread.o
-                0x00018430                g_sf_bluetooth_comms
- .rodata        0x0001843c       0x11 ./src/synergy_gen/bluetooth_thread.o
- *fill*         0x0001844d        0x3 ff
- .rodata        0x00018450        0xe ./src/synergy_gen/common_data.o
- *fill*         0x0001845e        0x2 ff
+                0x00018448        0xc ./src/synergy_gen/bluetooth_thread.o
+                0x00018448                g_sf_bluetooth_comms
+ .rodata        0x00018454       0x11 ./src/synergy_gen/bluetooth_thread.o
+ *fill*         0x00018465        0x3 ff
+ .rodata        0x00018468        0xe ./src/synergy_gen/common_data.o
+ *fill*         0x00018476        0x2 ff
  .rodata.g_datalogger_timer_extend
-                0x00018460        0x4 ./src/synergy_gen/datalogger_thread.o
+                0x00018478        0x4 ./src/synergy_gen/datalogger_thread.o
  .rodata.g_datalogger_timer_cfg
-                0x00018464       0x20 ./src/synergy_gen/datalogger_thread.o
+                0x0001847c       0x20 ./src/synergy_gen/datalogger_thread.o
  .rodata.g_datalogger_timer
-                0x00018484        0xc ./src/synergy_gen/datalogger_thread.o
-                0x00018484                g_datalogger_timer
- .rodata        0x00018490       0x2a ./src/synergy_gen/datalogger_thread.o
- *fill*         0x000184ba        0x2 ff
+                0x0001849c        0xc ./src/synergy_gen/datalogger_thread.o
+                0x0001849c                g_datalogger_timer
+ .rodata        0x000184a8       0x2a ./src/synergy_gen/datalogger_thread.o
+ *fill*         0x000184d2        0x2 ff
  .rodata.g_encoders_timer_extend
-                0x000184bc        0x4 ./src/synergy_gen/encoders_thread.o
+                0x000184d4        0x4 ./src/synergy_gen/encoders_thread.o
  .rodata.g_encoders_timer_cfg
-                0x000184c0       0x20 ./src/synergy_gen/encoders_thread.o
+                0x000184d8       0x20 ./src/synergy_gen/encoders_thread.o
  .rodata.g_encoders_timer
-                0x000184e0        0xc ./src/synergy_gen/encoders_thread.o
-                0x000184e0                g_encoders_timer
- .rodata        0x000184ec       0x24 ./src/synergy_gen/encoders_thread.o
+                0x000184f8        0xc ./src/synergy_gen/encoders_thread.o
+                0x000184f8                g_encoders_timer
+ .rodata        0x00018504       0x24 ./src/synergy_gen/encoders_thread.o
  .rodata.g_ioport
-                0x00018510        0x8 ./src/synergy_gen/hal_data.o
-                0x00018510                g_ioport
+                0x00018528        0x8 ./src/synergy_gen/hal_data.o
+                0x00018528                g_ioport
  .rodata.g_i2c0_cfg
-                0x00018518       0x28 ./src/synergy_gen/led_driver_thread.o
-                0x00018518                g_i2c0_cfg
+                0x00018530       0x28 ./src/synergy_gen/led_driver_thread.o
+                0x00018530                g_i2c0_cfg
  .rodata.g_i2c0
-                0x00018540        0xc ./src/synergy_gen/led_driver_thread.o
-                0x00018540                g_i2c0
+                0x00018558        0xc ./src/synergy_gen/led_driver_thread.o
+                0x00018558                g_i2c0
  .rodata.g_sf_led_driver_i2c_device_cfg
-                0x0001854c        0x8 ./src/synergy_gen/led_driver_thread.o
-                0x0001854c                g_sf_led_driver_i2c_device_cfg
+                0x00018564        0x8 ./src/synergy_gen/led_driver_thread.o
+                0x00018564                g_sf_led_driver_i2c_device_cfg
  .rodata.g_sf_led_driver_i2c_device
-                0x00018554        0xc ./src/synergy_gen/led_driver_thread.o
-                0x00018554                g_sf_led_driver_i2c_device
- .rodata        0x00018560       0x3e ./src/synergy_gen/led_driver_thread.o
- *fill*         0x0001859e        0x2 ff
+                0x0001856c        0xc ./src/synergy_gen/led_driver_thread.o
+                0x0001856c                g_sf_led_driver_i2c_device
+ .rodata        0x00018578       0x3e ./src/synergy_gen/led_driver_thread.o
+ *fill*         0x000185b6        0x2 ff
  .rodata.g_light_switch_irq_cfg
-                0x000185a0       0x14 ./src/synergy_gen/light_switch_thread.o
+                0x000185b8       0x14 ./src/synergy_gen/light_switch_thread.o
  .rodata.g_light_switch_irq
-                0x000185b4        0xc ./src/synergy_gen/light_switch_thread.o
-                0x000185b4                g_light_switch_irq
- .rodata        0x000185c0       0x2c ./src/synergy_gen/light_switch_thread.o
- .rodata        0x000185ec       0x14 ./src/synergy_gen/main.o
+                0x000185cc        0xc ./src/synergy_gen/light_switch_thread.o
+                0x000185cc                g_light_switch_irq
+ .rodata        0x000185d8       0x2c ./src/synergy_gen/light_switch_thread.o
+ .rodata        0x00018604       0x14 ./src/synergy_gen/main.o
  .rodata.g_speed_pwm_extend
-                0x00018600        0x4 ./src/synergy_gen/motor_controller_thread.o
+                0x00018618        0x4 ./src/synergy_gen/motor_controller_thread.o
  .rodata.g_speed_pwm_cfg
-                0x00018604       0x20 ./src/synergy_gen/motor_controller_thread.o
+                0x0001861c       0x20 ./src/synergy_gen/motor_controller_thread.o
  .rodata.g_speed_pwm
-                0x00018624        0xc ./src/synergy_gen/motor_controller_thread.o
-                0x00018624                g_speed_pwm
- .rodata        0x00018630       0x34 ./src/synergy_gen/motor_controller_thread.o
+                0x0001863c        0xc ./src/synergy_gen/motor_controller_thread.o
+                0x0001863c                g_speed_pwm
+ .rodata        0x00018648       0x34 ./src/synergy_gen/motor_controller_thread.o
  .rodata.g_bsp_pin_cfg_data
-                0x00018664      0x3c8 ./src/synergy_gen/pin_data.o
-                0x00018664                g_bsp_pin_cfg_data
+                0x0001867c      0x3c8 ./src/synergy_gen/pin_data.o
+                0x0001867c                g_bsp_pin_cfg_data
  .rodata.g_bsp_pin_cfg
-                0x00018a2c        0x8 ./src/synergy_gen/pin_data.o
-                0x00018a2c                g_bsp_pin_cfg
+                0x00018a44        0x8 ./src/synergy_gen/pin_data.o
+                0x00018a44                g_bsp_pin_cfg
  .rodata.g_power_monitor_transfer1_cfg
-                0x00018a34       0x14 ./src/synergy_gen/power_monitor_thread.o
-                0x00018a34                g_power_monitor_transfer1_cfg
+                0x00018a4c       0x14 ./src/synergy_gen/power_monitor_thread.o
+                0x00018a4c                g_power_monitor_transfer1_cfg
  .rodata.g_power_monitor_transfer1
-                0x00018a48        0xc ./src/synergy_gen/power_monitor_thread.o
-                0x00018a48                g_power_monitor_transfer1
+                0x00018a60        0xc ./src/synergy_gen/power_monitor_thread.o
+                0x00018a60                g_power_monitor_transfer1
  .rodata.g_power_monitor_timer1_extend
-                0x00018a54        0x4 ./src/synergy_gen/power_monitor_thread.o
+                0x00018a6c        0x4 ./src/synergy_gen/power_monitor_thread.o
  .rodata.g_power_monitor_timer1_cfg
-                0x00018a58       0x20 ./src/synergy_gen/power_monitor_thread.o
+                0x00018a70       0x20 ./src/synergy_gen/power_monitor_thread.o
  .rodata.g_power_monitor_timer1
-                0x00018a78        0xc ./src/synergy_gen/power_monitor_thread.o
-                0x00018a78                g_power_monitor_timer1
+                0x00018a90        0xc ./src/synergy_gen/power_monitor_thread.o
+                0x00018a90                g_power_monitor_timer1
  .rodata.g_power_monitor_adc1_cfg
-                0x00018a84       0x18 ./src/synergy_gen/power_monitor_thread.o
-                0x00018a84                g_power_monitor_adc1_cfg
+                0x00018a9c       0x18 ./src/synergy_gen/power_monitor_thread.o
+                0x00018a9c                g_power_monitor_adc1_cfg
  .rodata.g_power_monitor_adc1_channel_cfg
-                0x00018a9c       0x14 ./src/synergy_gen/power_monitor_thread.o
-                0x00018a9c                g_power_monitor_adc1_channel_cfg
+                0x00018ab4       0x14 ./src/synergy_gen/power_monitor_thread.o
+                0x00018ab4                g_power_monitor_adc1_channel_cfg
  .rodata.g_power_monitor_adc1
-                0x00018ab0       0x10 ./src/synergy_gen/power_monitor_thread.o
-                0x00018ab0                g_power_monitor_adc1
+                0x00018ac8       0x10 ./src/synergy_gen/power_monitor_thread.o
+                0x00018ac8                g_power_monitor_adc1
  .rodata.g_power_monitor_transfer0_cfg
-                0x00018ac0       0x14 ./src/synergy_gen/power_monitor_thread.o
-                0x00018ac0                g_power_monitor_transfer0_cfg
+                0x00018ad8       0x14 ./src/synergy_gen/power_monitor_thread.o
+                0x00018ad8                g_power_monitor_transfer0_cfg
  .rodata.g_power_monitor_transfer0
-                0x00018ad4        0xc ./src/synergy_gen/power_monitor_thread.o
-                0x00018ad4                g_power_monitor_transfer0
+                0x00018aec        0xc ./src/synergy_gen/power_monitor_thread.o
+                0x00018aec                g_power_monitor_transfer0
  .rodata.g_power_monitor_timer0_extend
-                0x00018ae0        0x4 ./src/synergy_gen/power_monitor_thread.o
+                0x00018af8        0x4 ./src/synergy_gen/power_monitor_thread.o
  .rodata.g_power_monitor_timer0_cfg
-                0x00018ae4       0x20 ./src/synergy_gen/power_monitor_thread.o
+                0x00018afc       0x20 ./src/synergy_gen/power_monitor_thread.o
  .rodata.g_power_monitor_timer0
-                0x00018b04        0xc ./src/synergy_gen/power_monitor_thread.o
-                0x00018b04                g_power_monitor_timer0
+                0x00018b1c        0xc ./src/synergy_gen/power_monitor_thread.o
+                0x00018b1c                g_power_monitor_timer0
  .rodata.g_power_monitor_adc0_cfg
-                0x00018b10       0x18 ./src/synergy_gen/power_monitor_thread.o
-                0x00018b10                g_power_monitor_adc0_cfg
+                0x00018b28       0x18 ./src/synergy_gen/power_monitor_thread.o
+                0x00018b28                g_power_monitor_adc0_cfg
  .rodata.g_power_monitor_adc0_channel_cfg
-                0x00018b28       0x14 ./src/synergy_gen/power_monitor_thread.o
-                0x00018b28                g_power_monitor_adc0_channel_cfg
+                0x00018b40       0x14 ./src/synergy_gen/power_monitor_thread.o
+                0x00018b40                g_power_monitor_adc0_channel_cfg
  .rodata.g_power_monitor_adc0
-                0x00018b3c       0x10 ./src/synergy_gen/power_monitor_thread.o
-                0x00018b3c                g_power_monitor_adc0
- .rodata        0x00018b4c       0x31 ./src/synergy_gen/power_monitor_thread.o
- *fill*         0x00018b7d        0x3 ff
- .rodata        0x00018b80       0x39 ./src/synergy_gen/rover_thread.o
- *fill*         0x00018bb9        0x3 ff
+                0x00018b54       0x10 ./src/synergy_gen/power_monitor_thread.o
+                0x00018b54                g_power_monitor_adc0
+ .rodata        0x00018b64       0x31 ./src/synergy_gen/power_monitor_thread.o
+ *fill*         0x00018b95        0x3 ff
+ .rodata        0x00018b98       0x39 ./src/synergy_gen/rover_thread.o
+ *fill*         0x00018bd1        0x3 ff
  .rodata.g_rear_ping_pwm_extend
-                0x00018bbc        0x4 ./src/synergy_gen/ultrasonic_sensor_thread.o
+                0x00018bd4        0x4 ./src/synergy_gen/ultrasonic_sensor_thread.o
  .rodata.g_rear_ping_pwm_cfg
-                0x00018bc0       0x20 ./src/synergy_gen/ultrasonic_sensor_thread.o
+                0x00018bd8       0x20 ./src/synergy_gen/ultrasonic_sensor_thread.o
  .rodata.g_rear_ping_pwm
-                0x00018be0        0xc ./src/synergy_gen/ultrasonic_sensor_thread.o
-                0x00018be0                g_rear_ping_pwm
+                0x00018bf8        0xc ./src/synergy_gen/ultrasonic_sensor_thread.o
+                0x00018bf8                g_rear_ping_pwm
  .rodata.g_front_ping_pwm_extend
-                0x00018bec        0x4 ./src/synergy_gen/ultrasonic_sensor_thread.o
+                0x00018c04        0x4 ./src/synergy_gen/ultrasonic_sensor_thread.o
  .rodata.g_front_ping_pwm_cfg
-                0x00018bf0       0x20 ./src/synergy_gen/ultrasonic_sensor_thread.o
+                0x00018c08       0x20 ./src/synergy_gen/ultrasonic_sensor_thread.o
  .rodata.g_front_ping_pwm
-                0x00018c10        0xc ./src/synergy_gen/ultrasonic_sensor_thread.o
-                0x00018c10                g_front_ping_pwm
- .rodata        0x00018c1c       0x35 ./src/synergy_gen/ultrasonic_sensor_thread.o
- *fill*         0x00018c51        0x3 ff
+                0x00018c28        0xc ./src/synergy_gen/ultrasonic_sensor_thread.o
+                0x00018c28                g_front_ping_pwm
+ .rodata        0x00018c34       0x35 ./src/synergy_gen/ultrasonic_sensor_thread.o
+ *fill*         0x00018c69        0x3 ff
  .rodata.lookupTable
-                0x00018c54       0x10 ./src/LED_NXP_PCA9551_driver.o
-                0x00018c64                __usb_dev_descriptor_start_fs = .
+                0x00018c6c       0x10 ./src/LED_NXP_PCA9551_driver.o
+                0x00018c7c                __usb_dev_descriptor_start_fs = .
  *(.usb_device_desc_fs*)
-                0x00018c64                __usb_cfg_descriptor_start_fs = .
+                0x00018c7c                __usb_cfg_descriptor_start_fs = .
  *(.usb_config_desc_fs*)
-                0x00018c64                __usb_interface_descriptor_start_fs = .
+                0x00018c7c                __usb_interface_descriptor_start_fs = .
  *(.usb_interface_desc_fs*)
-                0x00018c64                __usb_descriptor_end_fs = .
-                0x00018c64                __usb_dev_descriptor_start_hs = .
+                0x00018c7c                __usb_descriptor_end_fs = .
+                0x00018c7c                __usb_dev_descriptor_start_hs = .
  *(.usb_device_desc_hs*)
-                0x00018c64                __usb_cfg_descriptor_start_hs = .
+                0x00018c7c                __usb_cfg_descriptor_start_hs = .
  *(.usb_config_desc_hs*)
-                0x00018c64                __usb_interface_descriptor_start_hs = .
+                0x00018c7c                __usb_interface_descriptor_start_hs = .
  *(.usb_interface_desc_hs*)
-                0x00018c64                __usb_descriptor_end_hs = .
+                0x00018c7c                __usb_descriptor_end_hs = .
  *(.eh_frame*)
- .eh_frame      0x00018c64        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
- .eh_frame      0x00018c64        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtend.o
-                0x00018c68                __ROM_End = .
+ .eh_frame      0x00018c7c        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+ .eh_frame      0x00018c7c        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtend.o
+                0x00018c80                __ROM_End = .
                 0x00000084                __Vectors_Size = (__Vectors_End - __Vectors)
                 0x00000088                __Vector_Info_Size = (__Vector_Info_End - __Vector_Info_Start)
                 0x000001b0                __Lock_Lookup_Size = (__Lock_Lookup_End - __Lock_Lookup_Start)
 
-.glue_7         0x00018c68        0x0
+.glue_7         0x00018c80        0x0
  .glue_7        0x00000000        0x0 linker stubs
 
-.glue_7t        0x00018c68        0x0
+.glue_7t        0x00018c80        0x0
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x00018c68        0x0
+.vfp11_veneer   0x00018c80        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x00018c68        0x0
+.v4_bx          0x00018c80        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x00018c68        0x0
+.iplt           0x00018c80        0x0
  .iplt          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00018c68                __exidx_start = .
+                0x00018c80                __exidx_start = .
 
-.ARM.exidx      0x00018c68        0x8
+.ARM.exidx      0x00018c80        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x00018c68        0x8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a(_divdi3.o)
- .ARM.exidx     0x00018c70        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a(_udivdi3.o)
+ .ARM.exidx     0x00018c80        0x8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a(_divdi3.o)
+ .ARM.exidx     0x00018c88        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a(_udivdi3.o)
                                   0x8 (size before relaxing)
-                0x00018c70                __exidx_end = .
-                0x00018c70                __etext = .
+                0x00018c88                __exidx_end = .
+                0x00018c88                __etext = .
 
-.rel.dyn        0x00018c70        0x0
+.rel.dyn        0x00018c88        0x0
  .rel.iplt      0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
 
 .ssp_dtc_vector_table
@@ -13313,7 +13313,7 @@ END GROUP
  .ssp_dtc_vector_table
                 0x1ffe0000      0x1c0 ./synergy/ssp/src/driver/r_dtc/r_dtc.o
 
-.data           0x1ffe01c0      0x17c load address 0x00018c70
+.data           0x1ffe01c0      0x17c load address 0x00018c88
                 0x1ffe01c0                __data_start__ = .
  *(vtable)
  *(.data.*)
@@ -13703,7 +13703,7 @@ END GROUP
                 0x1ffe033c                __data_end__ = .
                 0x0000006c                __Lock_Size = (__Lock_End - __Lock_Start)
 
-.igot.plt       0x1ffe033c        0x0 load address 0x00018dec
+.igot.plt       0x1ffe033c        0x0 load address 0x00018e04
  .igot.plt      0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
 
 .qspi_flash     0x60000000        0x0
@@ -13711,10 +13711,10 @@ END GROUP
  *(.qspi_flash*)
                 0x60000000                __qspi_flash_end__ = .
                 0x00000000                __qspi_flash_code_size__ = (__qspi_flash_end__ - __qspi_flash_start__)
-                0x00018dec                __qspi_flash_code_addr__ = (__etext + (__data_end__ - __data_start__))
+                0x00018e04                __qspi_flash_code_addr__ = (__etext + (__data_end__ - __data_start__))
 
 .qspi_non_retentive
-                0x60000000        0x0 load address 0x00018dec
+                0x60000000        0x0 load address 0x00018e04
                 0x60000000                __qspi_non_retentive_start__ = .
  *(.qspi_non_retentive*)
                 0x60000000                __qspi_non_retentive_end__ = .
@@ -13723,7 +13723,7 @@ END GROUP
                 0x60000000                __qspi_region_start_address__ = __qspi_flash_start__
                 0x64000000                __qspi_region_end_address__ = (__qspi_flash_start__ + __qspi_region_max_size__)
 
-.noinit         0x1ffe033c       0x38 load address 0x00018dec
+.noinit         0x1ffe033c       0x38 load address 0x00018e04
                 0x1ffe033c                . = ALIGN (0x4)
                 0x1ffe033c                __noinit_start = .
  *(.noinit*)
@@ -13734,7 +13734,7 @@ END GROUP
                 0x1ffe036c                gp_cgc_feature
                 0x1ffe0374                __noinit_end = .
 
-.bss            0x1ffe0378    0x11828 load address 0x00018e28
+.bss            0x1ffe0378    0x11828 load address 0x00018e40
                 0x1ffe0378                . = ALIGN (0x4)
                 0x1ffe0378                __bss_start__ = .
  *(.bss*)
@@ -13774,7 +13774,7 @@ END GROUP
                 0x1ffe03fc        0x4 ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/system_S7G2.o
                 0x1ffe03fc                SystemCoreClock
  .bss.device_characteristics
-                0x1ffe0400        0x3 ./synergy/board/roverdemo/bsp_qspi.o
+                0x1ffe0400        0x3 ./synergy/board/syg_mdk/bsp_qspi.o
  *fill*         0x1ffe0403        0x1 
  .bss.gp_ctrl_SCI_7_RXI
                 0x1ffe0404        0x4 ./src/synergy_gen/bluetooth_thread.o
@@ -13994,7 +13994,7 @@ END GROUP
                 0x1fff1ba0                . = ALIGN (0x4)
                 0x1fff1ba0                __bss_end__ = .
 
-.heap           0x1fff1ba0     0x1000 load address 0x0002a650
+.heap           0x1fff1ba0     0x1000 load address 0x0002a668
                 0x1fff1ba0                . = ALIGN (0x8)
  *(.heap_d1)
                 0x1fff1ba0                . = ALIGN (0x8)
@@ -14005,7 +14005,7 @@ END GROUP
  .heap          0x1fff1ba0     0x1000 ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/startup_S7G2.o
                 0x1fff2ba0                __HeapLimit = .
 
-.stack_dummy    0x1fff2ba0     0x3800 load address 0x0002b650
+.stack_dummy    0x1fff2ba0     0x3800 load address 0x0002b668
                 0x1fff2ba0                . = ALIGN (0x8)
                 0x1fff2ba0                __StackLimit = .
  *(.stack*)
@@ -14241,13 +14241,13 @@ OUTPUT(RoverDemo.elf elf32-littlearm)
  .ARM.attributes
                 0x0000150b       0x39 ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/system_S7G2.o
  .ARM.attributes
-                0x00001544       0x39 ./synergy/board/roverdemo/bsp_init.o
+                0x00001544       0x39 ./synergy/board/syg_mdk/bsp_init.o
  .ARM.attributes
-                0x0000157d       0x39 ./synergy/board/roverdemo/bsp_leds.o
+                0x0000157d       0x39 ./synergy/board/syg_mdk/bsp_leds.o
  .ARM.attributes
-                0x000015b6       0x39 ./synergy/board/roverdemo/bsp_qspi.o
+                0x000015b6       0x39 ./synergy/board/syg_mdk/bsp_qspi.o
  .ARM.attributes
-                0x000015ef       0x39 ./synergy/board/roverdemo/bsp_sdram.o
+                0x000015ef       0x39 ./synergy/board/syg_mdk/bsp_sdram.o
  .ARM.attributes
                 0x00001628       0x39 ./src/synergy_gen/blinky_thread.o
  .ARM.attributes
@@ -14435,10 +14435,10 @@ OUTPUT(RoverDemo.elf elf32-littlearm)
  .comment       0x00000000       0x71 ./synergy/ssp/src/bsp/mcu/all/bsp_register_protection.o
  .comment       0x00000000       0x71 ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/startup_S7G2.o
  .comment       0x00000000       0x71 ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/system_S7G2.o
- .comment       0x00000000       0x71 ./synergy/board/roverdemo/bsp_init.o
- .comment       0x00000000       0x71 ./synergy/board/roverdemo/bsp_leds.o
- .comment       0x00000000       0x71 ./synergy/board/roverdemo/bsp_qspi.o
- .comment       0x00000000       0x71 ./synergy/board/roverdemo/bsp_sdram.o
+ .comment       0x00000000       0x71 ./synergy/board/syg_mdk/bsp_init.o
+ .comment       0x00000000       0x71 ./synergy/board/syg_mdk/bsp_leds.o
+ .comment       0x00000000       0x71 ./synergy/board/syg_mdk/bsp_qspi.o
+ .comment       0x00000000       0x71 ./synergy/board/syg_mdk/bsp_sdram.o
  .comment       0x00000000       0x71 ./src/synergy_gen/blinky_thread.o
  .comment       0x00000000       0x71 ./src/synergy_gen/bluetooth_thread.o
  .comment       0x00000000       0x71 ./src/synergy_gen/common_data.o
@@ -14473,7 +14473,7 @@ OUTPUT(RoverDemo.elf elf32-littlearm)
  .comment       0x00000000       0x71 ./src/ultrasonic_sensor.o
  .comment       0x00000000       0x71 ./src/ultrasonic_sensor_thread_entry.o
 
-.debug_info     0x00000000    0xa71c4
+.debug_info     0x00000000    0xa8681
  .debug_info    0x00000000     0x2316 ./synergy/ssp/src/framework/sf_uart_comms/sf_uart_comms.o
  .debug_info    0x00002316     0x2243 ./synergy/ssp/src/framework/sf_i2c/sf_i2c.o
  .debug_info    0x00004559     0x2b32 ./synergy/ssp/src/framework/sf_adc_periodic/sf_adc_periodic.o
@@ -14568,45 +14568,45 @@ OUTPUT(RoverDemo.elf elf32-littlearm)
  .debug_info    0x00062e57     0x1f33 ./synergy/ssp/src/bsp/mcu/all/bsp_register_protection.o
  .debug_info    0x00064d8a      0x1ed ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/startup_S7G2.o
  .debug_info    0x00064f77     0x2654 ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/system_S7G2.o
- .debug_info    0x000675cb      0x16e ./synergy/board/roverdemo/bsp_init.o
- .debug_info    0x00067739      0x718 ./synergy/board/roverdemo/bsp_leds.o
- .debug_info    0x00067e51     0x1073 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_info    0x00068ec4     0x1636 ./synergy/board/roverdemo/bsp_sdram.o
- .debug_info    0x0006a4fa      0x638 ./src/synergy_gen/blinky_thread.o
- .debug_info    0x0006ab32     0x297d ./src/synergy_gen/bluetooth_thread.o
- .debug_info    0x0006d4af     0x1ce7 ./src/synergy_gen/common_data.o
- .debug_info    0x0006f196     0x1f7d ./src/synergy_gen/datalogger_thread.o
- .debug_info    0x00071113     0x1f7d ./src/synergy_gen/encoders_thread.o
- .debug_info    0x00073090     0x2ab7 ./src/synergy_gen/hal_data.o
- .debug_info    0x00075b47     0x276d ./src/synergy_gen/led_driver_thread.o
- .debug_info    0x000782b4     0x2581 ./src/synergy_gen/light_switch_thread.o
- .debug_info    0x0007a835      0x669 ./src/synergy_gen/main.o
- .debug_info    0x0007ae9e     0x19ef ./src/synergy_gen/motor_controller_thread.o
- .debug_info    0x0007c88d      0x8ec ./src/synergy_gen/pin_data.o
- .debug_info    0x0007d179     0x328d ./src/synergy_gen/power_monitor_thread.o
- .debug_info    0x00080406      0x677 ./src/synergy_gen/rover_thread.o
- .debug_info    0x00080a7d     0x2172 ./src/synergy_gen/ultrasonic_sensor_thread.o
- .debug_info    0x00082bef     0x20dc ./src/LED_NXP_PCA9551_driver.o
- .debug_info    0x00084ccb      0xf27 ./src/blinky_thread_entry.o
- .debug_info    0x00085bf2     0x163b ./src/bluetooth.o
- .debug_info    0x0008722d      0x506 ./src/bluetooth_thread_entry.o
- .debug_info    0x00087733     0x18de ./src/datalogger.o
- .debug_info    0x00089011     0x17da ./src/datalogger_thread_entry.o
- .debug_info    0x0008a7eb     0x1b3b ./src/encoders.o
- .debug_info    0x0008c326     0x2f63 ./src/encoders_thread_entry.o
- .debug_info    0x0008f289     0x1f51 ./src/led_driver.o
- .debug_info    0x000911da      0x93d ./src/led_driver_thread_entry.o
- .debug_info    0x00091b17      0x682 ./src/light_switch.o
- .debug_info    0x00092199      0xc5c ./src/light_switch_thread_entry.o
- .debug_info    0x00092df5     0x1d43 ./src/motor_controller.o
- .debug_info    0x00094b38     0x17b7 ./src/motor_controller_thread_entry.o
- .debug_info    0x000962ef     0x2695 ./src/power_monitor_thread_entry.o
- .debug_info    0x00098984      0xd59 ./src/rover.o
- .debug_info    0x000996dd     0x12fc ./src/rover_thread_entry.o
- .debug_info    0x0009a9d9     0xbe13 ./src/ultrasonic_sensor.o
- .debug_info    0x000a67ec      0x9d8 ./src/ultrasonic_sensor_thread_entry.o
+ .debug_info    0x000675cb     0x162b ./synergy/board/syg_mdk/bsp_init.o
+ .debug_info    0x00068bf6      0x718 ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_info    0x0006930e     0x1073 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_info    0x0006a381     0x1636 ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_info    0x0006b9b7      0x638 ./src/synergy_gen/blinky_thread.o
+ .debug_info    0x0006bfef     0x297d ./src/synergy_gen/bluetooth_thread.o
+ .debug_info    0x0006e96c     0x1ce7 ./src/synergy_gen/common_data.o
+ .debug_info    0x00070653     0x1f7d ./src/synergy_gen/datalogger_thread.o
+ .debug_info    0x000725d0     0x1f7d ./src/synergy_gen/encoders_thread.o
+ .debug_info    0x0007454d     0x2ab7 ./src/synergy_gen/hal_data.o
+ .debug_info    0x00077004     0x276d ./src/synergy_gen/led_driver_thread.o
+ .debug_info    0x00079771     0x2581 ./src/synergy_gen/light_switch_thread.o
+ .debug_info    0x0007bcf2      0x669 ./src/synergy_gen/main.o
+ .debug_info    0x0007c35b     0x19ef ./src/synergy_gen/motor_controller_thread.o
+ .debug_info    0x0007dd4a      0x8ec ./src/synergy_gen/pin_data.o
+ .debug_info    0x0007e636     0x328d ./src/synergy_gen/power_monitor_thread.o
+ .debug_info    0x000818c3      0x677 ./src/synergy_gen/rover_thread.o
+ .debug_info    0x00081f3a     0x2172 ./src/synergy_gen/ultrasonic_sensor_thread.o
+ .debug_info    0x000840ac     0x20dc ./src/LED_NXP_PCA9551_driver.o
+ .debug_info    0x00086188      0xf27 ./src/blinky_thread_entry.o
+ .debug_info    0x000870af     0x163b ./src/bluetooth.o
+ .debug_info    0x000886ea      0x506 ./src/bluetooth_thread_entry.o
+ .debug_info    0x00088bf0     0x18de ./src/datalogger.o
+ .debug_info    0x0008a4ce     0x17da ./src/datalogger_thread_entry.o
+ .debug_info    0x0008bca8     0x1b3b ./src/encoders.o
+ .debug_info    0x0008d7e3     0x2f63 ./src/encoders_thread_entry.o
+ .debug_info    0x00090746     0x1f51 ./src/led_driver.o
+ .debug_info    0x00092697      0x93d ./src/led_driver_thread_entry.o
+ .debug_info    0x00092fd4      0x682 ./src/light_switch.o
+ .debug_info    0x00093656      0xc5c ./src/light_switch_thread_entry.o
+ .debug_info    0x000942b2     0x1d43 ./src/motor_controller.o
+ .debug_info    0x00095ff5     0x17b7 ./src/motor_controller_thread_entry.o
+ .debug_info    0x000977ac     0x2695 ./src/power_monitor_thread_entry.o
+ .debug_info    0x00099e41      0xd59 ./src/rover.o
+ .debug_info    0x0009ab9a     0x12fc ./src/rover_thread_entry.o
+ .debug_info    0x0009be96     0xbe13 ./src/ultrasonic_sensor.o
+ .debug_info    0x000a7ca9      0x9d8 ./src/ultrasonic_sensor_thread_entry.o
 
-.debug_abbrev   0x00000000     0xe60c
+.debug_abbrev   0x00000000     0xe6dc
  .debug_abbrev  0x00000000      0x289 ./synergy/ssp/src/framework/sf_uart_comms/sf_uart_comms.o
  .debug_abbrev  0x00000289      0x268 ./synergy/ssp/src/framework/sf_i2c/sf_i2c.o
  .debug_abbrev  0x000004f1      0x29e ./synergy/ssp/src/framework/sf_adc_periodic/sf_adc_periodic.o
@@ -14701,43 +14701,43 @@ OUTPUT(RoverDemo.elf elf32-littlearm)
  .debug_abbrev  0x0000a04a      0x213 ./synergy/ssp/src/bsp/mcu/all/bsp_register_protection.o
  .debug_abbrev  0x0000a25d      0x11b ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/startup_S7G2.o
  .debug_abbrev  0x0000a378      0x272 ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/system_S7G2.o
- .debug_abbrev  0x0000a5ea       0xd2 ./synergy/board/roverdemo/bsp_init.o
- .debug_abbrev  0x0000a6bc      0x10d ./synergy/board/roverdemo/bsp_leds.o
- .debug_abbrev  0x0000a7c9      0x24a ./synergy/board/roverdemo/bsp_qspi.o
- .debug_abbrev  0x0000aa13      0x1a7 ./synergy/board/roverdemo/bsp_sdram.o
- .debug_abbrev  0x0000abba      0x14a ./src/synergy_gen/blinky_thread.o
- .debug_abbrev  0x0000ad04      0x24a ./src/synergy_gen/bluetooth_thread.o
- .debug_abbrev  0x0000af4e      0x1bc ./src/synergy_gen/common_data.o
- .debug_abbrev  0x0000b10a      0x1ee ./src/synergy_gen/datalogger_thread.o
- .debug_abbrev  0x0000b2f8      0x1ee ./src/synergy_gen/encoders_thread.o
- .debug_abbrev  0x0000b4e6      0x21a ./src/synergy_gen/hal_data.o
- .debug_abbrev  0x0000b700      0x227 ./src/synergy_gen/led_driver_thread.o
- .debug_abbrev  0x0000b927      0x261 ./src/synergy_gen/light_switch_thread.o
- .debug_abbrev  0x0000bb88      0x168 ./src/synergy_gen/main.o
- .debug_abbrev  0x0000bcf0      0x1e7 ./src/synergy_gen/motor_controller_thread.o
- .debug_abbrev  0x0000bed7      0x10f ./src/synergy_gen/pin_data.o
- .debug_abbrev  0x0000bfe6      0x2ab ./src/synergy_gen/power_monitor_thread.o
- .debug_abbrev  0x0000c291      0x14a ./src/synergy_gen/rover_thread.o
- .debug_abbrev  0x0000c3db      0x1ee ./src/synergy_gen/ultrasonic_sensor_thread.o
- .debug_abbrev  0x0000c5c9      0x28e ./src/LED_NXP_PCA9551_driver.o
- .debug_abbrev  0x0000c857      0x191 ./src/blinky_thread_entry.o
- .debug_abbrev  0x0000c9e8      0x1fc ./src/bluetooth.o
- .debug_abbrev  0x0000cbe4       0xea ./src/bluetooth_thread_entry.o
- .debug_abbrev  0x0000ccce      0x1dc ./src/datalogger.o
- .debug_abbrev  0x0000ceaa      0x181 ./src/datalogger_thread_entry.o
- .debug_abbrev  0x0000d02b      0x1b0 ./src/encoders.o
- .debug_abbrev  0x0000d1db      0x203 ./src/encoders_thread_entry.o
- .debug_abbrev  0x0000d3de      0x22b ./src/led_driver.o
- .debug_abbrev  0x0000d609      0x10b ./src/led_driver_thread_entry.o
- .debug_abbrev  0x0000d714      0x125 ./src/light_switch.o
- .debug_abbrev  0x0000d839      0x18c ./src/light_switch_thread_entry.o
- .debug_abbrev  0x0000d9c5      0x1de ./src/motor_controller.o
- .debug_abbrev  0x0000dba3      0x174 ./src/motor_controller_thread_entry.o
- .debug_abbrev  0x0000dd17      0x1e8 ./src/power_monitor_thread_entry.o
- .debug_abbrev  0x0000deff      0x1fb ./src/rover.o
- .debug_abbrev  0x0000e0fa      0x171 ./src/rover_thread_entry.o
- .debug_abbrev  0x0000e26b      0x253 ./src/ultrasonic_sensor.o
- .debug_abbrev  0x0000e4be      0x14e ./src/ultrasonic_sensor_thread_entry.o
+ .debug_abbrev  0x0000a5ea      0x1a2 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_abbrev  0x0000a78c      0x10d ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_abbrev  0x0000a899      0x24a ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_abbrev  0x0000aae3      0x1a7 ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_abbrev  0x0000ac8a      0x14a ./src/synergy_gen/blinky_thread.o
+ .debug_abbrev  0x0000add4      0x24a ./src/synergy_gen/bluetooth_thread.o
+ .debug_abbrev  0x0000b01e      0x1bc ./src/synergy_gen/common_data.o
+ .debug_abbrev  0x0000b1da      0x1ee ./src/synergy_gen/datalogger_thread.o
+ .debug_abbrev  0x0000b3c8      0x1ee ./src/synergy_gen/encoders_thread.o
+ .debug_abbrev  0x0000b5b6      0x21a ./src/synergy_gen/hal_data.o
+ .debug_abbrev  0x0000b7d0      0x227 ./src/synergy_gen/led_driver_thread.o
+ .debug_abbrev  0x0000b9f7      0x261 ./src/synergy_gen/light_switch_thread.o
+ .debug_abbrev  0x0000bc58      0x168 ./src/synergy_gen/main.o
+ .debug_abbrev  0x0000bdc0      0x1e7 ./src/synergy_gen/motor_controller_thread.o
+ .debug_abbrev  0x0000bfa7      0x10f ./src/synergy_gen/pin_data.o
+ .debug_abbrev  0x0000c0b6      0x2ab ./src/synergy_gen/power_monitor_thread.o
+ .debug_abbrev  0x0000c361      0x14a ./src/synergy_gen/rover_thread.o
+ .debug_abbrev  0x0000c4ab      0x1ee ./src/synergy_gen/ultrasonic_sensor_thread.o
+ .debug_abbrev  0x0000c699      0x28e ./src/LED_NXP_PCA9551_driver.o
+ .debug_abbrev  0x0000c927      0x191 ./src/blinky_thread_entry.o
+ .debug_abbrev  0x0000cab8      0x1fc ./src/bluetooth.o
+ .debug_abbrev  0x0000ccb4       0xea ./src/bluetooth_thread_entry.o
+ .debug_abbrev  0x0000cd9e      0x1dc ./src/datalogger.o
+ .debug_abbrev  0x0000cf7a      0x181 ./src/datalogger_thread_entry.o
+ .debug_abbrev  0x0000d0fb      0x1b0 ./src/encoders.o
+ .debug_abbrev  0x0000d2ab      0x203 ./src/encoders_thread_entry.o
+ .debug_abbrev  0x0000d4ae      0x22b ./src/led_driver.o
+ .debug_abbrev  0x0000d6d9      0x10b ./src/led_driver_thread_entry.o
+ .debug_abbrev  0x0000d7e4      0x125 ./src/light_switch.o
+ .debug_abbrev  0x0000d909      0x18c ./src/light_switch_thread_entry.o
+ .debug_abbrev  0x0000da95      0x1de ./src/motor_controller.o
+ .debug_abbrev  0x0000dc73      0x174 ./src/motor_controller_thread_entry.o
+ .debug_abbrev  0x0000dde7      0x1e8 ./src/power_monitor_thread_entry.o
+ .debug_abbrev  0x0000dfcf      0x1fb ./src/rover.o
+ .debug_abbrev  0x0000e1ca      0x171 ./src/rover_thread_entry.o
+ .debug_abbrev  0x0000e33b      0x253 ./src/ultrasonic_sensor.o
+ .debug_abbrev  0x0000e58e      0x14e ./src/ultrasonic_sensor_thread_entry.o
 
 .debug_aranges  0x00000000     0x2310
  .debug_aranges
@@ -14929,13 +14929,13 @@ OUTPUT(RoverDemo.elf elf32-littlearm)
  .debug_aranges
                 0x00001c60       0x48 ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/system_S7G2.o
  .debug_aranges
-                0x00001ca8       0x20 ./synergy/board/roverdemo/bsp_init.o
+                0x00001ca8       0x20 ./synergy/board/syg_mdk/bsp_init.o
  .debug_aranges
-                0x00001cc8       0x18 ./synergy/board/roverdemo/bsp_leds.o
+                0x00001cc8       0x18 ./synergy/board/syg_mdk/bsp_leds.o
  .debug_aranges
-                0x00001ce0       0x58 ./synergy/board/roverdemo/bsp_qspi.o
+                0x00001ce0       0x58 ./synergy/board/syg_mdk/bsp_qspi.o
  .debug_aranges
-                0x00001d38       0x20 ./synergy/board/roverdemo/bsp_sdram.o
+                0x00001d38       0x20 ./synergy/board/syg_mdk/bsp_sdram.o
  .debug_aranges
                 0x00001d58       0x28 ./src/synergy_gen/blinky_thread.o
  .debug_aranges
@@ -15095,9 +15095,9 @@ OUTPUT(RoverDemo.elf elf32-littlearm)
  .debug_ranges  0x00001640       0x20 ./synergy/ssp/src/bsp/mcu/all/bsp_register_protection.o
  .debug_ranges  0x00001660       0x18 ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/startup_S7G2.o
  .debug_ranges  0x00001678       0x38 ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/system_S7G2.o
- .debug_ranges  0x000016b0       0x10 ./synergy/board/roverdemo/bsp_init.o
- .debug_ranges  0x000016c0       0x48 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_ranges  0x00001708       0x10 ./synergy/board/roverdemo/bsp_sdram.o
+ .debug_ranges  0x000016b0       0x10 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_ranges  0x000016c0       0x48 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_ranges  0x00001708       0x10 ./synergy/board/syg_mdk/bsp_sdram.o
  .debug_ranges  0x00001718       0x18 ./src/synergy_gen/blinky_thread.o
  .debug_ranges  0x00001730       0x20 ./src/synergy_gen/bluetooth_thread.o
  .debug_ranges  0x00001750       0x10 ./src/synergy_gen/common_data.o
@@ -15131,7 +15131,7 @@ OUTPUT(RoverDemo.elf elf32-littlearm)
  .debug_ranges  0x00001a80       0x20 ./src/ultrasonic_sensor.o
  .debug_ranges  0x00001aa0       0x18 ./src/ultrasonic_sensor_thread_entry.o
 
-.debug_line     0x00000000    0x3fa41
+.debug_line     0x00000000    0x3f9ba
  .debug_line    0x00000000      0x6de ./synergy/ssp/src/framework/sf_uart_comms/sf_uart_comms.o
  .debug_line    0x000006de      0x71c ./synergy/ssp/src/framework/sf_i2c/sf_i2c.o
  .debug_line    0x00000dfa      0x7b2 ./synergy/ssp/src/framework/sf_adc_periodic/sf_adc_periodic.o
@@ -15199,72 +15199,72 @@ OUTPUT(RoverDemo.elf elf32-littlearm)
  .debug_line    0x0000eed5      0x332 ./synergy/ssp/src/framework/el/tx/tx_src/txe_semaphore_get.o
  .debug_line    0x0000f207      0x2e3 ./synergy/ssp/src/framework/el/tx/tx_src/txe_semaphore_put.o
  .debug_line    0x0000f4ea      0x39f ./synergy/ssp/src/framework/el/tx/tx_src/txe_thread_create.o
- .debug_line    0x0000f889     0x1376 ./synergy/ssp/src/driver/r_sci_uart/r_sci_uart.o
- .debug_line    0x00010bff     0x1412 ./synergy/ssp/src/driver/r_riic/r_riic.o
- .debug_line    0x00012011      0xd85 ./synergy/ssp/src/driver/r_ioport/r_ioport.o
- .debug_line    0x00012d96      0xb71 ./synergy/ssp/src/driver/r_icu/r_icu.o
- .debug_line    0x00013907      0xfec ./synergy/ssp/src/driver/r_gpt/r_gpt.o
- .debug_line    0x000148f3      0xbea ./synergy/ssp/src/driver/r_fmi/r_fmi.o
- .debug_line    0x000154dd      0xa51 ./synergy/ssp/src/driver/r_elc/r_elc.o
- .debug_line    0x00015f2e      0xda4 ./synergy/ssp/src/driver/r_dtc/r_dtc.o
- .debug_line    0x00016cd2      0xe41 ./synergy/ssp/src/driver/r_cgc/hw/hw_cgc.o
- .debug_line    0x00017b13     0x1192 ./synergy/ssp/src/driver/r_cgc/r_cgc.o
- .debug_line    0x00018ca5     0x1265 ./synergy/ssp/src/driver/r_adc/r_adc.o
- .debug_line    0x00019f0a      0x83b ./synergy/ssp/src/bsp/mcu/s7g2/bsp_cache.o
- .debug_line    0x0001a745      0x96c ./synergy/ssp/src/bsp/mcu/s7g2/bsp_clocks.o
- .debug_line    0x0001b0b1      0x976 ./synergy/ssp/src/bsp/mcu/s7g2/bsp_feature.o
- .debug_line    0x0001ba27      0x811 ./synergy/ssp/src/bsp/mcu/s7g2/bsp_fmi_R7FS7G27H2A01CBD.o
- .debug_line    0x0001c238      0x889 ./synergy/ssp/src/bsp/mcu/s7g2/bsp_group_irq.o
- .debug_line    0x0001cac1      0x805 ./synergy/ssp/src/bsp/mcu/s7g2/bsp_hw_locks.o
- .debug_line    0x0001d2c6      0x8ae ./synergy/ssp/src/bsp/mcu/s7g2/bsp_module_stop.o
- .debug_line    0x0001db74      0x80a ./synergy/ssp/src/bsp/mcu/s7g2/bsp_rom_registers.o
- .debug_line    0x0001e37e      0x83c ./synergy/ssp/src/bsp/mcu/all/bsp_common.o
- .debug_line    0x0001ebba      0x822 ./synergy/ssp/src/bsp/mcu/all/bsp_common_leds.o
- .debug_line    0x0001f3dc      0x845 ./synergy/ssp/src/bsp/mcu/all/bsp_delay.o
- .debug_line    0x0001fc21      0x846 ./synergy/ssp/src/bsp/mcu/all/bsp_irq.o
- .debug_line    0x00020467      0x8ee ./synergy/ssp/src/bsp/mcu/all/bsp_locking.o
- .debug_line    0x00020d55      0x8a4 ./synergy/ssp/src/bsp/mcu/all/bsp_register_protection.o
- .debug_line    0x000215f9      0x845 ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/startup_S7G2.o
- .debug_line    0x00021e3e      0x9d0 ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/system_S7G2.o
- .debug_line    0x0002280e      0x80e ./synergy/board/roverdemo/bsp_init.o
- .debug_line    0x0002301c      0x7fc ./synergy/board/roverdemo/bsp_leds.o
- .debug_line    0x00023818      0x948 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_line    0x00024160      0x853 ./synergy/board/roverdemo/bsp_sdram.o
- .debug_line    0x000249b3      0xc19 ./src/synergy_gen/blinky_thread.o
- .debug_line    0x000255cc      0xca5 ./src/synergy_gen/bluetooth_thread.o
- .debug_line    0x00026271      0xb8c ./src/synergy_gen/common_data.o
- .debug_line    0x00026dfd      0xc3d ./src/synergy_gen/datalogger_thread.o
- .debug_line    0x00027a3a      0xc39 ./src/synergy_gen/encoders_thread.o
- .debug_line    0x00028673      0xbdb ./src/synergy_gen/hal_data.o
- .debug_line    0x0002924e      0xc40 ./src/synergy_gen/led_driver_thread.o
- .debug_line    0x00029e8e      0xc48 ./src/synergy_gen/light_switch_thread.o
- .debug_line    0x0002aad6      0x9f0 ./src/synergy_gen/main.o
- .debug_line    0x0002b4c6      0xc49 ./src/synergy_gen/motor_controller_thread.o
- .debug_line    0x0002c10f      0x861 ./src/synergy_gen/pin_data.o
- .debug_line    0x0002c970      0xce0 ./src/synergy_gen/power_monitor_thread.o
- .debug_line    0x0002d650      0xc1a ./src/synergy_gen/rover_thread.o
- .debug_line    0x0002e26a      0xc67 ./src/synergy_gen/ultrasonic_sensor_thread.o
- .debug_line    0x0002eed1      0xd83 ./src/LED_NXP_PCA9551_driver.o
- .debug_line    0x0002fc54      0xc4f ./src/blinky_thread_entry.o
- .debug_line    0x000308a3      0xe9d ./src/bluetooth.o
- .debug_line    0x00031740      0xe13 ./src/bluetooth_thread_entry.o
- .debug_line    0x00032553      0xe4e ./src/datalogger.o
- .debug_line    0x000333a1      0xe14 ./src/datalogger_thread_entry.o
- .debug_line    0x000341b5      0xe64 ./src/encoders.o
- .debug_line    0x00035019      0xe2a ./src/encoders_thread_entry.o
- .debug_line    0x00035e43      0xe87 ./src/led_driver.o
- .debug_line    0x00036cca      0xdfc ./src/led_driver_thread_entry.o
- .debug_line    0x00037ac6      0xe3b ./src/light_switch.o
- .debug_line    0x00038901      0xe5c ./src/light_switch_thread_entry.o
- .debug_line    0x0003975d      0xe37 ./src/motor_controller.o
- .debug_line    0x0003a594      0xe0e ./src/motor_controller_thread_entry.o
- .debug_line    0x0003b3a2      0xd16 ./src/power_monitor_thread_entry.o
- .debug_line    0x0003c0b8      0xec9 ./src/rover.o
- .debug_line    0x0003cf81      0xdfd ./src/rover_thread_entry.o
- .debug_line    0x0003dd7e      0xea4 ./src/ultrasonic_sensor.o
- .debug_line    0x0003ec22      0xe1f ./src/ultrasonic_sensor_thread_entry.o
+ .debug_line    0x0000f889     0x1374 ./synergy/ssp/src/driver/r_sci_uart/r_sci_uart.o
+ .debug_line    0x00010bfd     0x1410 ./synergy/ssp/src/driver/r_riic/r_riic.o
+ .debug_line    0x0001200d      0xd83 ./synergy/ssp/src/driver/r_ioport/r_ioport.o
+ .debug_line    0x00012d90      0xb6f ./synergy/ssp/src/driver/r_icu/r_icu.o
+ .debug_line    0x000138ff      0xfea ./synergy/ssp/src/driver/r_gpt/r_gpt.o
+ .debug_line    0x000148e9      0xbe8 ./synergy/ssp/src/driver/r_fmi/r_fmi.o
+ .debug_line    0x000154d1      0xa4f ./synergy/ssp/src/driver/r_elc/r_elc.o
+ .debug_line    0x00015f20      0xda2 ./synergy/ssp/src/driver/r_dtc/r_dtc.o
+ .debug_line    0x00016cc2      0xe3f ./synergy/ssp/src/driver/r_cgc/hw/hw_cgc.o
+ .debug_line    0x00017b01     0x1190 ./synergy/ssp/src/driver/r_cgc/r_cgc.o
+ .debug_line    0x00018c91     0x1263 ./synergy/ssp/src/driver/r_adc/r_adc.o
+ .debug_line    0x00019ef4      0x839 ./synergy/ssp/src/bsp/mcu/s7g2/bsp_cache.o
+ .debug_line    0x0001a72d      0x96a ./synergy/ssp/src/bsp/mcu/s7g2/bsp_clocks.o
+ .debug_line    0x0001b097      0x974 ./synergy/ssp/src/bsp/mcu/s7g2/bsp_feature.o
+ .debug_line    0x0001ba0b      0x80f ./synergy/ssp/src/bsp/mcu/s7g2/bsp_fmi_R7FS7G27H2A01CBD.o
+ .debug_line    0x0001c21a      0x887 ./synergy/ssp/src/bsp/mcu/s7g2/bsp_group_irq.o
+ .debug_line    0x0001caa1      0x803 ./synergy/ssp/src/bsp/mcu/s7g2/bsp_hw_locks.o
+ .debug_line    0x0001d2a4      0x8ac ./synergy/ssp/src/bsp/mcu/s7g2/bsp_module_stop.o
+ .debug_line    0x0001db50      0x808 ./synergy/ssp/src/bsp/mcu/s7g2/bsp_rom_registers.o
+ .debug_line    0x0001e358      0x83a ./synergy/ssp/src/bsp/mcu/all/bsp_common.o
+ .debug_line    0x0001eb92      0x820 ./synergy/ssp/src/bsp/mcu/all/bsp_common_leds.o
+ .debug_line    0x0001f3b2      0x843 ./synergy/ssp/src/bsp/mcu/all/bsp_delay.o
+ .debug_line    0x0001fbf5      0x844 ./synergy/ssp/src/bsp/mcu/all/bsp_irq.o
+ .debug_line    0x00020439      0x8ec ./synergy/ssp/src/bsp/mcu/all/bsp_locking.o
+ .debug_line    0x00020d25      0x8a2 ./synergy/ssp/src/bsp/mcu/all/bsp_register_protection.o
+ .debug_line    0x000215c7      0x843 ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/startup_S7G2.o
+ .debug_line    0x00021e0a      0x9ce ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/system_S7G2.o
+ .debug_line    0x000227d8      0x80b ./synergy/board/syg_mdk/bsp_init.o
+ .debug_line    0x00022fe3      0x7f8 ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_line    0x000237db      0x944 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_line    0x0002411f      0x84f ./synergy/board/syg_mdk/bsp_sdram.o
+ .debug_line    0x0002496e      0xc17 ./src/synergy_gen/blinky_thread.o
+ .debug_line    0x00025585      0xca3 ./src/synergy_gen/bluetooth_thread.o
+ .debug_line    0x00026228      0xb8a ./src/synergy_gen/common_data.o
+ .debug_line    0x00026db2      0xc3b ./src/synergy_gen/datalogger_thread.o
+ .debug_line    0x000279ed      0xc37 ./src/synergy_gen/encoders_thread.o
+ .debug_line    0x00028624      0xbd9 ./src/synergy_gen/hal_data.o
+ .debug_line    0x000291fd      0xc3e ./src/synergy_gen/led_driver_thread.o
+ .debug_line    0x00029e3b      0xc46 ./src/synergy_gen/light_switch_thread.o
+ .debug_line    0x0002aa81      0x9ee ./src/synergy_gen/main.o
+ .debug_line    0x0002b46f      0xc47 ./src/synergy_gen/motor_controller_thread.o
+ .debug_line    0x0002c0b6      0x85f ./src/synergy_gen/pin_data.o
+ .debug_line    0x0002c915      0xcde ./src/synergy_gen/power_monitor_thread.o
+ .debug_line    0x0002d5f3      0xc18 ./src/synergy_gen/rover_thread.o
+ .debug_line    0x0002e20b      0xc65 ./src/synergy_gen/ultrasonic_sensor_thread.o
+ .debug_line    0x0002ee70      0xd81 ./src/LED_NXP_PCA9551_driver.o
+ .debug_line    0x0002fbf1      0xc4d ./src/blinky_thread_entry.o
+ .debug_line    0x0003083e      0xe9b ./src/bluetooth.o
+ .debug_line    0x000316d9      0xe11 ./src/bluetooth_thread_entry.o
+ .debug_line    0x000324ea      0xe4c ./src/datalogger.o
+ .debug_line    0x00033336      0xe12 ./src/datalogger_thread_entry.o
+ .debug_line    0x00034148      0xe62 ./src/encoders.o
+ .debug_line    0x00034faa      0xe28 ./src/encoders_thread_entry.o
+ .debug_line    0x00035dd2      0xe85 ./src/led_driver.o
+ .debug_line    0x00036c57      0xdfa ./src/led_driver_thread_entry.o
+ .debug_line    0x00037a51      0xe39 ./src/light_switch.o
+ .debug_line    0x0003888a      0xe5a ./src/light_switch_thread_entry.o
+ .debug_line    0x000396e4      0xe35 ./src/motor_controller.o
+ .debug_line    0x0003a519      0xe0c ./src/motor_controller_thread_entry.o
+ .debug_line    0x0003b325      0xd14 ./src/power_monitor_thread_entry.o
+ .debug_line    0x0003c039      0xec7 ./src/rover.o
+ .debug_line    0x0003cf00      0xdfb ./src/rover_thread_entry.o
+ .debug_line    0x0003dcfb      0xea2 ./src/ultrasonic_sensor.o
+ .debug_line    0x0003eb9d      0xe1d ./src/ultrasonic_sensor_thread_entry.o
 
-.debug_str      0x00000000    0x2d2a7
+.debug_str      0x00000000    0x2d2c0
  .debug_str     0x00000000     0x4363 ./synergy/ssp/src/framework/sf_uart_comms/sf_uart_comms.o
                                0x4547 (size before relaxing)
  .debug_str     0x00004363      0x3f9 ./synergy/ssp/src/framework/sf_i2c/sf_i2c.o
@@ -15399,134 +15399,134 @@ OUTPUT(RoverDemo.elf elf32-littlearm)
                                 0x925 (size before relaxing)
  .debug_str     0x0000784c       0x38 ./synergy/ssp/src/framework/el/tx/tx_src/txe_thread_create.o
                                 0x9cd (size before relaxing)
- .debug_str     0x00007884     0xf0af ./synergy/ssp/src/driver/r_sci_uart/r_sci_uart.o
-                              0x12e1f (size before relaxing)
- .debug_str     0x00016933      0xe00 ./synergy/ssp/src/driver/r_riic/r_riic.o
-                              0x12788 (size before relaxing)
- .debug_str     0x00017733     0x3708 ./synergy/ssp/src/driver/r_ioport/r_ioport.o
-                              0x13fbe (size before relaxing)
- .debug_str     0x0001ae3b      0x575 ./synergy/ssp/src/driver/r_icu/r_icu.o
-                              0x11175 (size before relaxing)
- .debug_str     0x0001b3b0     0x161d ./synergy/ssp/src/driver/r_gpt/r_gpt.o
-                              0x12c16 (size before relaxing)
- .debug_str     0x0001c9cd      0xa04 ./synergy/ssp/src/driver/r_fmi/r_fmi.o
-                              0x1112d (size before relaxing)
- .debug_str     0x0001d3d1      0x34c ./synergy/ssp/src/driver/r_elc/r_elc.o
-                              0x10d23 (size before relaxing)
- .debug_str     0x0001d71d     0x2451 ./synergy/ssp/src/driver/r_dtc/r_dtc.o
-                              0x13524 (size before relaxing)
- .debug_str     0x0001fb6e      0xc5e ./synergy/ssp/src/driver/r_cgc/hw/hw_cgc.o
-                               0xe271 (size before relaxing)
- .debug_str     0x000207cc     0x3d23 ./synergy/ssp/src/driver/r_cgc/r_cgc.o
-                              0x17c32 (size before relaxing)
- .debug_str     0x000244ef     0x1a34 ./synergy/ssp/src/driver/r_adc/r_adc.o
-                              0x15765 (size before relaxing)
- .debug_str     0x00025f23       0xb8 ./synergy/ssp/src/bsp/mcu/s7g2/bsp_cache.o
-                               0xd0b3 (size before relaxing)
- .debug_str     0x00025fdb      0x3c4 ./synergy/ssp/src/bsp/mcu/s7g2/bsp_clocks.o
-                               0xdec6 (size before relaxing)
- .debug_str     0x0002639f      0x3d5 ./synergy/ssp/src/bsp/mcu/s7g2/bsp_feature.o
-                               0xcd16 (size before relaxing)
- .debug_str     0x00026774       0x3b ./synergy/ssp/src/bsp/mcu/s7g2/bsp_fmi_R7FS7G27H2A01CBD.o
-                               0xc323 (size before relaxing)
- .debug_str     0x000267af       0x94 ./synergy/ssp/src/bsp/mcu/s7g2/bsp_group_irq.o
-                               0xd4e1 (size before relaxing)
- .debug_str     0x00026843     0x135e ./synergy/ssp/src/bsp/mcu/s7g2/bsp_hw_locks.o
-                               0xd986 (size before relaxing)
- .debug_str     0x00027ba1      0x3b2 ./synergy/ssp/src/bsp/mcu/s7g2/bsp_module_stop.o
-                               0xe200 (size before relaxing)
- .debug_str     0x00027f53       0xbc ./synergy/ssp/src/bsp/mcu/s7g2/bsp_rom_registers.o
-                               0xc399 (size before relaxing)
- .debug_str     0x0002800f      0x17e ./synergy/ssp/src/bsp/mcu/all/bsp_common.o
-                               0xd18c (size before relaxing)
- .debug_str     0x0002818d       0x77 ./synergy/ssp/src/bsp/mcu/all/bsp_common_leds.o
-                               0xe09f (size before relaxing)
- .debug_str     0x00028204      0x14b ./synergy/ssp/src/bsp/mcu/all/bsp_delay.o
-                               0xc448 (size before relaxing)
- .debug_str     0x0002834f       0x99 ./synergy/ssp/src/bsp/mcu/all/bsp_irq.o
-                               0xc80d (size before relaxing)
- .debug_str     0x000283e8      0x1a7 ./synergy/ssp/src/bsp/mcu/all/bsp_locking.o
-                               0xd499 (size before relaxing)
- .debug_str     0x0002858f       0xfb ./synergy/ssp/src/bsp/mcu/all/bsp_register_protection.o
-                               0xcfca (size before relaxing)
- .debug_str     0x0002868a       0xc7 ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/startup_S7G2.o
-                               0xc3c0 (size before relaxing)
- .debug_str     0x00028751      0x1ac ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/system_S7G2.o
-                              0x122db (size before relaxing)
- .debug_str     0x000288fd       0x2f ./synergy/board/roverdemo/bsp_init.o
-                               0xc313 (size before relaxing)
- .debug_str     0x0002892c       0x35 ./synergy/board/roverdemo/bsp_leds.o
-                               0xd3ff (size before relaxing)
- .debug_str     0x00028961      0xd78 ./synergy/board/roverdemo/bsp_qspi.o
-                               0xf0c2 (size before relaxing)
- .debug_str     0x000296d9      0x6e2 ./synergy/board/roverdemo/bsp_sdram.o
-                               0xcb88 (size before relaxing)
- .debug_str     0x00029dbb      0x1c5 ./src/synergy_gen/blinky_thread.o
-                              0x12242 (size before relaxing)
- .debug_str     0x00029f80      0x47b ./src/synergy_gen/bluetooth_thread.o
-                              0x17636 (size before relaxing)
- .debug_str     0x0002a3fb       0xa3 ./src/synergy_gen/common_data.o
-                              0x1582a (size before relaxing)
- .debug_str     0x0002a49e      0x171 ./src/synergy_gen/datalogger_thread.o
-                              0x16a4c (size before relaxing)
- .debug_str     0x0002a60f      0x15b ./src/synergy_gen/encoders_thread.o
-                              0x16a36 (size before relaxing)
- .debug_str     0x0002a76a       0xc6 ./src/synergy_gen/hal_data.o
-                              0x17db1 (size before relaxing)
- .debug_str     0x0002a830      0x252 ./src/synergy_gen/led_driver_thread.o
-                              0x1715a (size before relaxing)
- .debug_str     0x0002aa82      0x16c ./src/synergy_gen/light_switch_thread.o
-                              0x16b27 (size before relaxing)
- .debug_str     0x0002abee       0xc8 ./src/synergy_gen/main.o
-                              0x11e2d (size before relaxing)
- .debug_str     0x0002acb6      0x118 ./src/synergy_gen/motor_controller_thread.o
-                              0x1587d (size before relaxing)
- .debug_str     0x0002adce      0x1fc ./src/synergy_gen/pin_data.o
-                               0xd96a (size before relaxing)
- .debug_str     0x0002afca      0x876 ./src/synergy_gen/power_monitor_thread.o
-                              0x18bb1 (size before relaxing)
- .debug_str     0x0002b840       0xa5 ./src/synergy_gen/rover_thread.o
-                              0x12271 (size before relaxing)
- .debug_str     0x0002b8e5      0x560 ./src/synergy_gen/ultrasonic_sensor_thread.o
-                              0x16e5c (size before relaxing)
- .debug_str     0x0002be45      0x1cb ./src/LED_NXP_PCA9551_driver.o
-                              0x15b8b (size before relaxing)
- .debug_str     0x0002c010       0x51 ./src/blinky_thread_entry.o
-                              0x13cd9 (size before relaxing)
- .debug_str     0x0002c061      0x276 ./src/bluetooth.o
-                              0x14c76 (size before relaxing)
- .debug_str     0x0002c2d7       0x37 ./src/bluetooth_thread_entry.o
-                              0x12efb (size before relaxing)
- .debug_str     0x0002c30e       0xb6 ./src/datalogger.o
-                              0x15d26 (size before relaxing)
- .debug_str     0x0002c3c4       0x49 ./src/datalogger_thread_entry.o
-                              0x15c80 (size before relaxing)
- .debug_str     0x0002c40d      0x3c0 ./src/encoders.o
-                              0x12f6f (size before relaxing)
- .debug_str     0x0002c7cd       0x73 ./src/encoders_thread_entry.o
-                              0x1670d (size before relaxing)
- .debug_str     0x0002c840      0x1f7 ./src/led_driver.o
-                              0x1649d (size before relaxing)
- .debug_str     0x0002ca37       0x39 ./src/led_driver_thread_entry.o
-                              0x135c8 (size before relaxing)
- .debug_str     0x0002ca70       0x41 ./src/light_switch.o
-                              0x12b81 (size before relaxing)
- .debug_str     0x0002cab1       0x53 ./src/light_switch_thread_entry.o
-                              0x13a06 (size before relaxing)
- .debug_str     0x0002cb04      0x1c3 ./src/motor_controller.o
-                              0x16c0e (size before relaxing)
- .debug_str     0x0002ccc7       0x45 ./src/motor_controller_thread_entry.o
-                              0x15c7b (size before relaxing)
- .debug_str     0x0002cd0c      0x14c ./src/power_monitor_thread_entry.o
-                              0x170bc (size before relaxing)
- .debug_str     0x0002ce58      0x18a ./src/rover.o
-                              0x139f0 (size before relaxing)
- .debug_str     0x0002cfe2       0x2f ./src/rover_thread_entry.o
-                              0x14af7 (size before relaxing)
- .debug_str     0x0002d011      0x232 ./src/ultrasonic_sensor.o
-                              0x16e85 (size before relaxing)
- .debug_str     0x0002d243       0x64 ./src/ultrasonic_sensor_thread_entry.o
-                              0x1367b (size before relaxing)
+ .debug_str     0x00007884     0xf0ad ./synergy/ssp/src/driver/r_sci_uart/r_sci_uart.o
+                              0x12e1d (size before relaxing)
+ .debug_str     0x00016931      0xe00 ./synergy/ssp/src/driver/r_riic/r_riic.o
+                              0x12786 (size before relaxing)
+ .debug_str     0x00017731     0x3708 ./synergy/ssp/src/driver/r_ioport/r_ioport.o
+                              0x13fbc (size before relaxing)
+ .debug_str     0x0001ae39      0x575 ./synergy/ssp/src/driver/r_icu/r_icu.o
+                              0x11173 (size before relaxing)
+ .debug_str     0x0001b3ae     0x161d ./synergy/ssp/src/driver/r_gpt/r_gpt.o
+                              0x12c14 (size before relaxing)
+ .debug_str     0x0001c9cb      0xa04 ./synergy/ssp/src/driver/r_fmi/r_fmi.o
+                              0x1112b (size before relaxing)
+ .debug_str     0x0001d3cf      0x34c ./synergy/ssp/src/driver/r_elc/r_elc.o
+                              0x10d21 (size before relaxing)
+ .debug_str     0x0001d71b     0x2451 ./synergy/ssp/src/driver/r_dtc/r_dtc.o
+                              0x13522 (size before relaxing)
+ .debug_str     0x0001fb6c      0xc5e ./synergy/ssp/src/driver/r_cgc/hw/hw_cgc.o
+                               0xe26f (size before relaxing)
+ .debug_str     0x000207ca     0x3d23 ./synergy/ssp/src/driver/r_cgc/r_cgc.o
+                              0x17c30 (size before relaxing)
+ .debug_str     0x000244ed     0x1a34 ./synergy/ssp/src/driver/r_adc/r_adc.o
+                              0x15763 (size before relaxing)
+ .debug_str     0x00025f21       0xb8 ./synergy/ssp/src/bsp/mcu/s7g2/bsp_cache.o
+                               0xd0b1 (size before relaxing)
+ .debug_str     0x00025fd9      0x3c4 ./synergy/ssp/src/bsp/mcu/s7g2/bsp_clocks.o
+                               0xdec4 (size before relaxing)
+ .debug_str     0x0002639d      0x3d5 ./synergy/ssp/src/bsp/mcu/s7g2/bsp_feature.o
+                               0xcd14 (size before relaxing)
+ .debug_str     0x00026772       0x3b ./synergy/ssp/src/bsp/mcu/s7g2/bsp_fmi_R7FS7G27H2A01CBD.o
+                               0xc321 (size before relaxing)
+ .debug_str     0x000267ad       0x94 ./synergy/ssp/src/bsp/mcu/s7g2/bsp_group_irq.o
+                               0xd4df (size before relaxing)
+ .debug_str     0x00026841     0x135e ./synergy/ssp/src/bsp/mcu/s7g2/bsp_hw_locks.o
+                               0xd984 (size before relaxing)
+ .debug_str     0x00027b9f      0x3b2 ./synergy/ssp/src/bsp/mcu/s7g2/bsp_module_stop.o
+                               0xe1fe (size before relaxing)
+ .debug_str     0x00027f51       0xbc ./synergy/ssp/src/bsp/mcu/s7g2/bsp_rom_registers.o
+                               0xc397 (size before relaxing)
+ .debug_str     0x0002800d      0x17e ./synergy/ssp/src/bsp/mcu/all/bsp_common.o
+                               0xd18a (size before relaxing)
+ .debug_str     0x0002818b       0x77 ./synergy/ssp/src/bsp/mcu/all/bsp_common_leds.o
+                               0xe09d (size before relaxing)
+ .debug_str     0x00028202      0x14b ./synergy/ssp/src/bsp/mcu/all/bsp_delay.o
+                               0xc446 (size before relaxing)
+ .debug_str     0x0002834d       0x99 ./synergy/ssp/src/bsp/mcu/all/bsp_irq.o
+                               0xc80b (size before relaxing)
+ .debug_str     0x000283e6      0x1a7 ./synergy/ssp/src/bsp/mcu/all/bsp_locking.o
+                               0xd497 (size before relaxing)
+ .debug_str     0x0002858d       0xfb ./synergy/ssp/src/bsp/mcu/all/bsp_register_protection.o
+                               0xcfc8 (size before relaxing)
+ .debug_str     0x00028688       0xc7 ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/startup_S7G2.o
+                               0xc3be (size before relaxing)
+ .debug_str     0x0002874f      0x1ac ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/system_S7G2.o
+                              0x122d9 (size before relaxing)
+ .debug_str     0x000288fb      0x51c ./synergy/board/syg_mdk/bsp_init.o
+                               0xc975 (size before relaxing)
+ .debug_str     0x00028e17       0x33 ./synergy/board/syg_mdk/bsp_leds.o
+                               0xd3fb (size before relaxing)
+ .debug_str     0x00028e4a      0xd76 ./synergy/board/syg_mdk/bsp_qspi.o
+                               0xf0be (size before relaxing)
+ .debug_str     0x00029bc0      0x214 ./synergy/board/syg_mdk/bsp_sdram.o
+                               0xcb84 (size before relaxing)
+ .debug_str     0x00029dd4      0x1c5 ./src/synergy_gen/blinky_thread.o
+                              0x12240 (size before relaxing)
+ .debug_str     0x00029f99      0x47b ./src/synergy_gen/bluetooth_thread.o
+                              0x17634 (size before relaxing)
+ .debug_str     0x0002a414       0xa3 ./src/synergy_gen/common_data.o
+                              0x15828 (size before relaxing)
+ .debug_str     0x0002a4b7      0x171 ./src/synergy_gen/datalogger_thread.o
+                              0x16a4a (size before relaxing)
+ .debug_str     0x0002a628      0x15b ./src/synergy_gen/encoders_thread.o
+                              0x16a34 (size before relaxing)
+ .debug_str     0x0002a783       0xc6 ./src/synergy_gen/hal_data.o
+                              0x17daf (size before relaxing)
+ .debug_str     0x0002a849      0x252 ./src/synergy_gen/led_driver_thread.o
+                              0x17158 (size before relaxing)
+ .debug_str     0x0002aa9b      0x16c ./src/synergy_gen/light_switch_thread.o
+                              0x16b25 (size before relaxing)
+ .debug_str     0x0002ac07       0xc8 ./src/synergy_gen/main.o
+                              0x11e2b (size before relaxing)
+ .debug_str     0x0002accf      0x118 ./src/synergy_gen/motor_controller_thread.o
+                              0x1587b (size before relaxing)
+ .debug_str     0x0002ade7      0x1fc ./src/synergy_gen/pin_data.o
+                               0xd968 (size before relaxing)
+ .debug_str     0x0002afe3      0x876 ./src/synergy_gen/power_monitor_thread.o
+                              0x18baf (size before relaxing)
+ .debug_str     0x0002b859       0xa5 ./src/synergy_gen/rover_thread.o
+                              0x1226f (size before relaxing)
+ .debug_str     0x0002b8fe      0x560 ./src/synergy_gen/ultrasonic_sensor_thread.o
+                              0x16e5a (size before relaxing)
+ .debug_str     0x0002be5e      0x1cb ./src/LED_NXP_PCA9551_driver.o
+                              0x15b89 (size before relaxing)
+ .debug_str     0x0002c029       0x51 ./src/blinky_thread_entry.o
+                              0x13cd7 (size before relaxing)
+ .debug_str     0x0002c07a      0x276 ./src/bluetooth.o
+                              0x14c74 (size before relaxing)
+ .debug_str     0x0002c2f0       0x37 ./src/bluetooth_thread_entry.o
+                              0x12ef9 (size before relaxing)
+ .debug_str     0x0002c327       0xb6 ./src/datalogger.o
+                              0x15d24 (size before relaxing)
+ .debug_str     0x0002c3dd       0x49 ./src/datalogger_thread_entry.o
+                              0x15c7e (size before relaxing)
+ .debug_str     0x0002c426      0x3c0 ./src/encoders.o
+                              0x12f6d (size before relaxing)
+ .debug_str     0x0002c7e6       0x73 ./src/encoders_thread_entry.o
+                              0x1670b (size before relaxing)
+ .debug_str     0x0002c859      0x1f7 ./src/led_driver.o
+                              0x1649b (size before relaxing)
+ .debug_str     0x0002ca50       0x39 ./src/led_driver_thread_entry.o
+                              0x135c6 (size before relaxing)
+ .debug_str     0x0002ca89       0x41 ./src/light_switch.o
+                              0x12b7f (size before relaxing)
+ .debug_str     0x0002caca       0x53 ./src/light_switch_thread_entry.o
+                              0x13a04 (size before relaxing)
+ .debug_str     0x0002cb1d      0x1c3 ./src/motor_controller.o
+                              0x16c0c (size before relaxing)
+ .debug_str     0x0002cce0       0x45 ./src/motor_controller_thread_entry.o
+                              0x15c79 (size before relaxing)
+ .debug_str     0x0002cd25      0x14c ./src/power_monitor_thread_entry.o
+                              0x170ba (size before relaxing)
+ .debug_str     0x0002ce71      0x18a ./src/rover.o
+                              0x139ee (size before relaxing)
+ .debug_str     0x0002cffb       0x2f ./src/rover_thread_entry.o
+                              0x14af5 (size before relaxing)
+ .debug_str     0x0002d02a      0x232 ./src/ultrasonic_sensor.o
+                              0x16e83 (size before relaxing)
+ .debug_str     0x0002d25c       0x64 ./src/ultrasonic_sensor_thread_entry.o
+                              0x13679 (size before relaxing)
 
 .debug_frame    0x00000000     0x745c
  .debug_frame   0x00000000      0x164 ./synergy/ssp/src/framework/sf_uart_comms/sf_uart_comms.o
@@ -15620,9 +15620,9 @@ OUTPUT(RoverDemo.elf elf32-littlearm)
  .debug_frame   0x00006210       0x88 ./synergy/ssp/src/bsp/mcu/all/bsp_register_protection.o
  .debug_frame   0x00006298       0x4c ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/startup_S7G2.o
  .debug_frame   0x000062e4       0xe0 ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/system_S7G2.o
- .debug_frame   0x000063c4       0x34 ./synergy/board/roverdemo/bsp_init.o
- .debug_frame   0x000063f8      0x138 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_frame   0x00006530       0x2c ./synergy/board/roverdemo/bsp_sdram.o
+ .debug_frame   0x000063c4       0x34 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_frame   0x000063f8      0x138 ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_frame   0x00006530       0x2c ./synergy/board/syg_mdk/bsp_sdram.o
  .debug_frame   0x0000655c       0x58 ./src/synergy_gen/blinky_thread.o
  .debug_frame   0x000065b4       0x80 ./src/synergy_gen/bluetooth_thread.o
  .debug_frame   0x00006634       0x30 ./src/synergy_gen/common_data.o
@@ -15786,10 +15786,10 @@ OUTPUT(RoverDemo.elf elf32-littlearm)
  .debug_macro   0x00008276      0x27a ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/startup_S7G2.o
  .debug_macro   0x000084f0      0x2cb ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/system_S7G2.o
  .debug_macro   0x000087bb       0x46 ./synergy/ssp/src/bsp/cmsis/Device/RENESAS/S7G2/Source/system_S7G2.o
- .debug_macro   0x00008801      0x273 ./synergy/board/roverdemo/bsp_init.o
- .debug_macro   0x00008a74      0x273 ./synergy/board/roverdemo/bsp_leds.o
- .debug_macro   0x00008ce7      0x325 ./synergy/board/roverdemo/bsp_qspi.o
- .debug_macro   0x0000900c      0x2d7 ./synergy/board/roverdemo/bsp_sdram.o
+ .debug_macro   0x00008801      0x279 ./synergy/board/syg_mdk/bsp_init.o
+ .debug_macro   0x00008a7a      0x273 ./synergy/board/syg_mdk/bsp_leds.o
+ .debug_macro   0x00008ced      0x31f ./synergy/board/syg_mdk/bsp_qspi.o
+ .debug_macro   0x0000900c      0x2d7 ./synergy/board/syg_mdk/bsp_sdram.o
  .debug_macro   0x000092e3      0x415 ./src/synergy_gen/blinky_thread.o
  .debug_macro   0x000096f8       0x10 ./src/synergy_gen/blinky_thread.o
  .debug_macro   0x00009708       0x10 ./src/synergy_gen/blinky_thread.o

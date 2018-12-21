@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <synergyConfiguration version="3">
   <generalSettings>
-    <option key="#Board#" value="board.roverdemo"/>
+    <option key="#Board#" value="board.syg_mdk"/>
     <option key="CPU" value="S7G2"/>
     <option key="#TargetName#" value="R7FS7G27H2A01CBD"/>
     <option key="#TargetARCHITECTURE#" value="cortex-m4"/>
@@ -9,7 +9,7 @@
     <option key="#pinconfiguration#" value="roverdemo.pincfg"/>
     <option key="#SSPVersion#" value="1.2.0"/>
     <option key="#DefaultLinkerScript#" value="S7G2.ld"/>
-    <option key="#ConfigurationFragments#" value="FutureDesignsInc##BSP##Board##SYG##RoverDemo"/>
+    <option key="#ConfigurationFragments#" value="FutureDesignsInc##BSP##Board##SYG##RoverDemo|FutureDesignsInc##BSP##Board##SYG##MDK"/>
   </generalSettings>
   <synergyBspConfiguration>
     <config id="config.bsp.s7g2.R7FS7G27H2A01CBD">
@@ -91,10 +91,6 @@
     <node id="board.clock.fclk.display" option="board.clock.fclk.display.value"/>
   </synergyClockConfiguration>
   <synergyComponentSelection>
-    <component apiversion="" class="BSP" condition="" group="Board" subgroup="SYG" variant="RoverDemo" vendor="FutureDesignsInc" version="1.2.0">
-      <description>A carrier board designed to use the SYG-SOM to control a rover</description>
-      <originalPack>FutureDesignsInc.RoverDemo.1.2.0.pack</originalPack>
-    </component>
     <component apiversion="" class="Projects" condition="" group="all" subgroup="BlinkyThreadX" variant="" vendor="Renesas" version="1.2.0">
       <description>Simple application that blinks an LED. ThreadX RTOS included</description>
       <originalPack>Renesas.SynergyBlinkyThreadX.1.2.0.pack</originalPack>
@@ -178,6 +174,10 @@
     <component apiversion="" class="Express Logic" condition="" group="all" subgroup="tx_src" variant="" vendor="Renesas" version="1.2.0">
       <description>Express Logic ThreadX: Provides=[ThreadX]</description>
       <originalPack>Renesas.Synergy.1.2.0.pack</originalPack>
+    </component>
+    <component apiversion="" class="BSP" condition="" group="Board" subgroup="SYG" variant="MDK" vendor="FutureDesignsInc" version="1.2.0">
+      <description/>
+      <originalPack>FutureDesignsInc.SYG_MDK.1.2.0.pack</originalPack>
     </component>
   </synergyComponentSelection>
   <synergyIcuConfiguration/>
@@ -878,6 +878,7 @@
     </config>
   </synergyModuleConfiguration>
   <synergyPinConfiguration>
+    <pincfg active="false" name="S7G2-PE-HMI.pincfg" symbol=""/>
     <pincfg active="true" name="roverdemo.pincfg" symbol="g_bsp_pin_cfg"/>
   </synergyPinConfiguration>
 </synergyConfiguration>
