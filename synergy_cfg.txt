@@ -40,10 +40,8 @@ Synergy Configuration
     Parameter checking: Enabled
     Assert Failures: Return SSP_ERR_ASSERTION
     Error Log: No Error Log
-    ID code 1: 0xFFFFFFFF
-    ID code 2: 0xFFFFFFFF
-    ID code 3: 0xFFFFFFFF
-    ID code 4: 0xFFFFFFFF
+    ID Code Mode: Unlocked (Ignore ID)
+    ID Code (32 Hex Characters): FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
     
   Clocks
     XTAL 24000000Hz
@@ -296,7 +294,11 @@ Synergy Configuration
     Main Oscillator Clock Source: Crystal or Resonator
     Oscillator Stop Detect: Enabled
     Subclock Drive: Standard (12.5pf)
+    Configure Subclock Drive On Reset: Enabled
     Low Voltage Mode: Disable
+    
+  Module "ELC Driver on r_elc"
+    Parameter Checking: Default (BSP)
     
   Module "I/O Port Driver on r_ioport"
     Parameter Checking: Default (BSP)
@@ -306,8 +308,35 @@ Synergy Configuration
     SSP MCU Information Symbol Name: g_fmi_data
     Part Number Mask: 0xFE00
     
-  Module "ELC Driver on r_elc"
+  Module "Communications Framework on sf_uart_comms"
     Parameter Checking: Default (BSP)
+    Read Input Queue Size (4-Byte Words): 15
+    
+  Module "UART Driver on r_sci_uart"
+    External RTS Operation: Disable
+    Reception: Enable
+    Transmission: Enable
+    Parameter Checking: Default (BSP)
+    
+  Module "Timer Driver on r_gpt"
+    Parameter Checking: Default (BSP)
+    
+  Module "Timer Driver on r_agt"
+    Parameter Checking: Default (BSP)
+    
+  Module "External IRQ Driver on r_icu"
+    Parameter Checking: Default (BSP)
+    
+  Module "ADC Driver on r_adc"
+    Parameter Checking: Enabled
+    
+  Module "ADC Periodic Framework on sf_adc_periodic"
+    Parameter Checking: Default (BSP)
+    
+  Module "Transfer Driver on r_dtc"
+    Parameter Checking: Default (BSP)
+    Software Start: Disabled
+    Linker section to keep DTC vector table: .ssp_dtc_vector_table
     
   Module "ThreadX Source"
     Error Checking: Enabled (default)
@@ -345,6 +374,7 @@ Synergy Configuration
     TX_THREAD_EXTENSION_0: 
     TX_THREAD_EXTENSION_1: 
     TX_THREAD_EXTENSION_2: 
+    TX_THREAD_EXTENSION_3: int bsd_errno;
     TX_BLOCK_POOL_EXTENSION: 
     TX_BYTE_POOL_EXTENSION: 
     TX_EVENT_FLAGS_GROUP_EXTENSION: 
@@ -372,23 +402,11 @@ Synergy Configuration
     TX_SEMAPHORE_DELETE_EXTENSION(semaphore_ptr): 
     TX_TIMER_DELETE_EXTENSION(timer_ptr): 
     
-  Module "Communications Framework on sf_uart_comms"
-    Parameter Checking: Default (BSP)
-    Read Input Queue Size (4-Byte Words): 15
-    
-  Module "Timer Driver on r_gpt"
-    Parameter Checking: Default (BSP)
-    
-  Module "Timer Driver on r_agt"
-    Parameter Checking: Default (BSP)
-    
   Module "I2C Framework Device on sf_i2c"
     Parameter Checking: Enabled
     
-  Module "External IRQ Driver on r_icu"
-    Parameter Checking: Default (BSP)
-    
-  Module "ADC Periodic Framework on sf_adc_periodic"
+  Module "I2C Framework Shared Bus on sf_i2c"
+  Module "I2C Master Driver on r_riic"
     Parameter Checking: Default (BSP)
     
   HAL
@@ -425,6 +443,8 @@ Synergy Configuration
     
     Instance "g_sf_bluetooth_comms Communications Framework on sf_uart_comms"
       Name: g_sf_bluetooth_comms
+      Name of generated initialization function: sf_comms_init0
+      Auto Initialization: Enable
       
       Instance "g_bluetooth_uart UART Driver on r_sci_uart"
         Name: g_bluetooth_uart
@@ -441,10 +461,11 @@ Synergy Configuration
         Start bit detection: Falling Edge
         Noise Cancel: Enable
         Bit Rate Modulation Enable: Enable
-        Receive Interrupt Priority: Priority 3 (CM4: valid, CM0+: lowest - not valid if using ThreadX)
-        Transmit Interrupt Priority: Priority 3 (CM4: valid, CM0+: lowest - not valid if using ThreadX)
-        Transmit End Interrupt Priority: Priority 3 (CM4: valid, CM0+: lowest - not valid if using ThreadX)
-        Error Interrupt Priority: Priority 3 (CM4: valid, CM0+: lowest - not valid if using ThreadX)
+        Receive FIFO Trigger Level: Max
+        Receive Interrupt Priority: Priority 3
+        Transmit Interrupt Priority: Priority 3
+        Transmit End Interrupt Priority: Priority 3
+        Error Interrupt Priority: Priority 3
         
   Thread "Rover Thread"
     Symbol: rover_thread
@@ -491,7 +512,7 @@ Synergy Configuration
       GTIOCB Output Enabled: True
       GTIOCB Stop Level: Pin Level Low
       Callback: NULL
-      Interrupt Priority: Disabled
+      Overflow Interrupt Priority: Disabled
       
     Object "g_motor_controller_semaphore Semaphore"
       Name: Motor Controller Semaphore
@@ -520,7 +541,7 @@ Synergy Configuration
       GTIOCB Output Enabled: False
       GTIOCB Stop Level: Pin Level Low
       Callback: datalogger_timer_callback
-      Interrupt Priority: Priority 3 (CM4: valid, CM0+: lowest - not valid if using ThreadX)
+      Overflow Interrupt Priority: Priority 3
       
     Object "g_datalogger_semaphore Semaphore"
       Name: Datalogger Semaphore
@@ -549,7 +570,7 @@ Synergy Configuration
       GTIOCB Output Enabled: True
       GTIOCB Stop Level: Pin Level Low
       Callback: ping_callback
-      Interrupt Priority: Priority 1
+      Overflow Interrupt Priority: Priority 1
       
     Instance "g_rear_ping_pwm Timer Driver on r_gpt"
       Name: g_rear_ping_pwm
@@ -565,7 +586,7 @@ Synergy Configuration
       GTIOCB Output Enabled: True
       GTIOCB Stop Level: Pin Level Low
       Callback: ping_callback
-      Interrupt Priority: Priority 1
+      Overflow Interrupt Priority: Priority 1
       
     Instance "g_ping_echo_timer Timer Driver on r_agt"
       Name: g_ping_echo_timer
@@ -578,8 +599,10 @@ Synergy Configuration
       AGTO Output Enabled: False
       AGTIO Output Enabled: False
       Output Inverted: False
+      Enable comparator A output pin: False
+      Enable comparator B output pin: False
       Callback: NULL
-      Interrupt Priority: Disabled
+      Underflow Interrupt Priority: Disabled
       
     Object "g_ultrasonic_sensor_semaphore Semaphore"
       Name: Ultrasonic Sensor Semaphore
@@ -596,24 +619,24 @@ Synergy Configuration
     
     Instance "g_sf_led_driver_i2c_device I2C Framework Device on sf_i2c"
       Name: g_sf_led_driver_i2c_device
+      Slave Address : 0x60
+      Address Mode: 7-Bit
       
-      Instance "g_i2c0 I2C Master Driver on r_riic"
-        Name: g_i2c0
-        Channel: 2
-        Rate: Fast-mode
-        Slave Address: 0x60
-        Address Mode: 7-Bit
-        Callback: NULL
-        Receive Interrupt Priority: Priority 2
-        Transmit Interrupt Priority: Priority 2
-        Transmit End Interrupt Priority: Priority 2
-        Error Interrupt Priority: Priority 2
-        
       Instance "g_sf_i2c_bus0 I2C Framework Shared Bus on sf_i2c"
         Name: g_sf_i2c_bus0
-        I2C Implementation: RIIC
-        Channel: 2
         
+        Instance "g_i2c0 I2C Master Driver on r_riic"
+          Name: g_i2c0
+          Channel: 2
+          Rate: Fast-mode
+          Slave Address: 0
+          Address Mode: 7-Bit
+          Callback: NULL
+          Receive Interrupt Priority: Priority 2
+          Transmit Interrupt Priority: Priority 2
+          Transmit End Interrupt Priority: Priority 2
+          Error Interrupt Priority: Priority 2
+          
     Object "g_led_driver_semaphore Semaphore"
       Name: LED Driver Semaphore
       Symbol: g_led_driver_semaphore
@@ -640,7 +663,7 @@ Synergy Configuration
       Digital Filtering Sample Clock (Only valid when Digital Filtering is Enabled): PCLK / 64
       Interrupt enabled after initialization: True
       Callback: light_switch_callback
-      Interrupt Priority: Priority 3 (CM4: valid, CM0+: lowest - not valid if using ThreadX)
+      Pin Interrupt Priority: Priority 3
       
     Object "g_light_switch_semaphore Semaphore"
       Name: Light Switch Semaphore
@@ -660,17 +683,19 @@ Synergy Configuration
       Name of the data-buffer to store samples: g_battery_monitor_adc_buffer0
       Length of the data-buffer: 60
       Number of sampling iterations: 1
-      GPT Timer channel used to trigger the scan: Channel 0
       Callback: g_battery_monitor_adc_callback
+      Name of generated initialization function: sf_adc_periodic_init0
+      Auto Initialization: Enable
       
       Instance "g_power_monitor_adc0 ADC Driver on r_adc"
         Name: g_power_monitor_adc0
         Unit: 0
-        Resolution: 12-Bit
+        Resolution (resolution varies by MCU): 12-Bit
         Alignment: Right
         Clear after read: On
         Mode: Single Scan
-        Channel Scan Mask: Select channels below
+        Internal Calibration During Open(): Enabled
+        Channel Scan Mask (channel availability varies by MCU): Select channels below
             Channel 0: Unused
             Channel 1: Use in Normal/Group A
             Channel 2: Unused
@@ -678,34 +703,34 @@ Synergy Configuration
             Channel 4: Use in Normal/Group A
             Channel 5: Unused
             Channel 6: Use in Normal/Group A
-            Channel 7 (S3A7/S124 Only): Unused
-            Channel 8 (S3A7/S124 Only): Unused
-            Channel 9 (S3A7/S124 Only): Unused
-            Channel 10 (S3A7/S124 Only): Unused
-            Channel 11 (S3A7 Only): Unused
-            Channel 12 (S3A7 Only): Unused
-            Channel 13 (S3A7 Only): Unused
-            Channel 14 (S3A7 Only): Unused
-            Channel 15 (S3A7 Only): Unused
+            Channel 7: Unused
+            Channel 8: Unused
+            Channel 9: Unused
+            Channel 10: Unused
+            Channel 11: Unused
+            Channel 12: Unused
+            Channel 13: Unused
+            Channel 14 (S3 series Only): Unused
+            Channel 15 (S3A7/S3A3 Only): Unused
             Channel 16: Unused
             Channel 17: Unused
             Channel 18: Unused
             Channel 19: Unused
             Channel 20: Unused
             Channel 21 (Unit 0 Only): Unused
-            Channel 22 (S3A7/S124 Only): Unused
-            Channel 23 (S3A7 Only): Unused
-            Channel 24 (S3A7 Only): Unused
-            Channel 25 (S3A7 Only): Unused
-            Channel 26 (S3A7 Only): Unused
-            Channel 27 (S3A7 Only): Unused
+            Channel 22: Unused
+            Channel 23: Unused
+            Channel 24: Unused
+            Channel 25 (S3 series only): Unused
+            Channel 26 (S3A7/S3A3 Only): Unused
+            Channel 27 (S3A7/S3A3 Only): Unused
             Temperature Sensor: Unused
             Voltage Sensor: Use in Normal/Group A
         Normal/Group A Trigger: ELC Event
         Group B Trigger (Valid only in Group Scan Mode): ELC Event (The only valid trigger for either group in Group Scan Mode)
         Group Priority (Valid only in Group Scan Mode): Group A cannot interrupt Group B
         Add/Average Count: Disabled
-        Addition/Averaging Mask: Select channels to perform addition/averaging below
+        Addition/Averaging Mask (channel availability varies by MCU): Select channels to perform addition/averaging below
             Channel 0: Disabled
             Channel 1: Disabled
             Channel 2: Disabled
@@ -742,7 +767,7 @@ Synergy Configuration
             Channel 2: Disabled
         Sample Hold States (Applies only to the 3 channels selected above): 24
         Callback: NULL
-        Scan End Interrupt Priority: Priority 3 (CM4: valid, CM0+: lowest - not valid if using ThreadX)
+        Scan End Interrupt Priority: Priority 3
         Scan End Group B Interrupt Priority: Disabled
         
       Instance "g_power_monitor_timer0 Timer Driver on r_gpt"
@@ -759,7 +784,7 @@ Synergy Configuration
         GTIOCB Output Enabled: False
         GTIOCB Stop Level: Pin Level Low
         Callback: NULL
-        Interrupt Priority: Priority 3 (CM4: valid, CM0+: lowest - not valid if using ThreadX)
+        Overflow Interrupt Priority: Priority 3
         
       Instance "g_power_monitor_transfer0 Transfer Driver on r_dtc Software Activation 1"
         Name: g_power_monitor_transfer0
@@ -783,17 +808,19 @@ Synergy Configuration
       Name of the data-buffer to store samples: g_battery_monitor_adc_buffer1
       Length of the data-buffer: 4
       Number of sampling iterations: 1
-      GPT Timer channel used to trigger the scan: Channel 1
       Callback: g_battery_monitor_adc_callback
+      Name of generated initialization function: sf_adc_periodic_init1
+      Auto Initialization: Enable
       
       Instance "g_power_monitor_adc1 ADC Driver on r_adc"
         Name: g_power_monitor_adc1
-        Unit: 1 (S7G2 Only)
-        Resolution: 12-Bit
+        Unit: 1(S7G2,S5D9 and S5D5)
+        Resolution (resolution varies by MCU): 12-Bit
         Alignment: Right
         Clear after read: On
         Mode: Single Scan
-        Channel Scan Mask: Select channels below
+        Internal Calibration During Open(): Enabled
+        Channel Scan Mask (channel availability varies by MCU): Select channels below
             Channel 0: Unused
             Channel 1: Unused
             Channel 2: Unused
@@ -801,34 +828,34 @@ Synergy Configuration
             Channel 4: Use in Normal/Group A
             Channel 5: Unused
             Channel 6: Unused
-            Channel 7 (S3A7/S124 Only): Unused
-            Channel 8 (S3A7/S124 Only): Unused
-            Channel 9 (S3A7/S124 Only): Unused
-            Channel 10 (S3A7/S124 Only): Unused
-            Channel 11 (S3A7 Only): Unused
-            Channel 12 (S3A7 Only): Unused
-            Channel 13 (S3A7 Only): Unused
-            Channel 14 (S3A7 Only): Unused
-            Channel 15 (S3A7 Only): Unused
+            Channel 7: Unused
+            Channel 8: Unused
+            Channel 9: Unused
+            Channel 10: Unused
+            Channel 11: Unused
+            Channel 12: Unused
+            Channel 13: Unused
+            Channel 14 (S3 series Only): Unused
+            Channel 15 (S3A7/S3A3 Only): Unused
             Channel 16: Unused
             Channel 17: Unused
             Channel 18: Unused
             Channel 19: Unused
             Channel 20: Unused
             Channel 21 (Unit 0 Only): Unused
-            Channel 22 (S3A7/S124 Only): Unused
-            Channel 23 (S3A7 Only): Unused
-            Channel 24 (S3A7 Only): Unused
-            Channel 25 (S3A7 Only): Unused
-            Channel 26 (S3A7 Only): Unused
-            Channel 27 (S3A7 Only): Unused
+            Channel 22: Unused
+            Channel 23: Unused
+            Channel 24: Unused
+            Channel 25 (S3 series only): Unused
+            Channel 26 (S3A7/S3A3 Only): Unused
+            Channel 27 (S3A7/S3A3 Only): Unused
             Temperature Sensor: Unused
             Voltage Sensor: Unused
         Normal/Group A Trigger: ELC Event
         Group B Trigger (Valid only in Group Scan Mode): ELC Event (The only valid trigger for either group in Group Scan Mode)
         Group Priority (Valid only in Group Scan Mode): Group A cannot interrupt Group B
         Add/Average Count: Disabled
-        Addition/Averaging Mask: Select channels to perform addition/averaging below
+        Addition/Averaging Mask (channel availability varies by MCU): Select channels to perform addition/averaging below
             Channel 0: Disabled
             Channel 1: Disabled
             Channel 2: Disabled
@@ -865,7 +892,7 @@ Synergy Configuration
             Channel 2: Disabled
         Sample Hold States (Applies only to the 3 channels selected above): 24
         Callback: NULL
-        Scan End Interrupt Priority: Priority 3 (CM4: valid, CM0+: lowest - not valid if using ThreadX)
+        Scan End Interrupt Priority: Priority 3
         Scan End Group B Interrupt Priority: Disabled
         
       Instance "g_power_monitor_timer1 Timer Driver on r_gpt"
@@ -882,7 +909,7 @@ Synergy Configuration
         GTIOCB Output Enabled: False
         GTIOCB Stop Level: Pin Level Low
         Callback: NULL
-        Interrupt Priority: Priority 3 (CM4: valid, CM0+: lowest - not valid if using ThreadX)
+        Overflow Interrupt Priority: Priority 3
         
       Instance "g_power_monitor_transfer1 Transfer Driver on r_dtc Software Activation 1"
         Name: g_power_monitor_transfer1
@@ -928,7 +955,7 @@ Synergy Configuration
       GTIOCB Output Enabled: False
       GTIOCB Stop Level: Pin Level Low
       Callback: encoders_timer_callback
-      Interrupt Priority: Priority 3 (CM4: valid, CM0+: lowest - not valid if using ThreadX)
+      Overflow Interrupt Priority: Priority 3
       
     Object "g_encoders_semaphore Semaphore"
       Name: Encoders Semaphore
